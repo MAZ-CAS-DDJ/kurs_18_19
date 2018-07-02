@@ -15,7 +15,7 @@ Anmeldeschluss	Mi, 15.08.2018
 3. [Was ist am Datenjournalismus anders?](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/03%20Was%C2%A0ist%C2%A0anders%3F.md) (bsk), 10"
 4. [Datenrecherche: Aggregieren, Reinigen, Analysieren, Visualisieren](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/04%C2%A0agg%20rei%C2%A0and%C2%A0vis.md) 20" (ds, bsk)
 5. [Spreadsheets und ihre Grenzen (SORT; SPLIT; VLOOKUP)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/05%C2%A0Spreadsheets%20und%20Grenzen.md) (bsk), 60"
-6. [Setup-Beginn[(https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/06%20Setup.md)], (bsk), 180"
+6. [Setup-Beginn](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/06%20Setup.md)], (bsk), 180"
 
 ## Einstieg ins Programmieren: Command Line und Setup
 **25. September 2018**
