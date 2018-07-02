@@ -1,4 +1,4 @@
-# CAS Datenjournalismus 18-19
+# MAZ CAS Datenjournalismus 18-19
 
 Nr.	J99339
 Kursdauer	20 Tage
