@@ -2,7 +2,9 @@
 
 Der Spesenskandal im britischen Parlament schlug um 2009/10 und in den Jahren danach sehr hohe Wellen. Um diese Geschichte zu erzählen, brauchten englische Zeitungen, allen voran der Guardian, Crowd Sourcing aber auch Programmierskills, um die [Daten zu scrapen](https://www.theguardian.com/news/datablog/2010/jun/25/mps-expenses-spreadsheet) und [die Daten zu analysieren](https://www.theguardian.com/news/datablog+politics/mps-expenses). Die Recherche war auf lange Sicht gesehen einer der Gründe für den Brexit.
 
-# Zürich_wie_neu: neue Lokalstories
+# Zürich Wie Neu: neue Lokalstories
+
+Datenjournalismus hilft auch, um lokale Geschichten zu erzählen. Zum Beispiel indem die Daten der städtischen Verwaltung Zürich für journalistische Recherchen genutzt werden. [Wo in Zürich die meisten Abfallsünder leben](https://www.tagesanzeiger.ch/zuerich/stadt/wo-die-meisten-abfallsuender-leben/story/28906103).
 
 #Influencer Story: Den Datenkraken die Stirn bieten
 #Bundesverwaltungsgerichts-Story: Faktizität in politische Diskussionen bringen
