@@ -1,1 +1,1 @@
-#Recherchemethodik: Frage -> These; Thesen-Check; Mind Map; Knackpunkt; Briefing Person
+# Recherchemethodik: Frage -> These; Thesen-Check; Mind Map; Knackpunkt; Briefing Person
