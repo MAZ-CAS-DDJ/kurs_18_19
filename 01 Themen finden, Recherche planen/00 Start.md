@@ -9,7 +9,7 @@ In alphabetischer Reihenfolge:
 - [Reto Fehr](reto.fehr@watson.chwatson.), [Watson](https://www.watson.ch/u/search?q=Reto%20fehr)
 - [Michael Heim](mailto:michael.heim@handelszeitung.ch), [Handelszeitung](https://www.handelszeitung.ch/)
 - [Florian Imbach](mailto:florian.imbach@srf.ch), [SRF](http://www.florianimbach.ch/)
-- [Denise Jeitziner](mailto:denise.jeitziner@tamedia.ch), [SonntagsZeitung, Tages-Anzeiger](https://www.tagesanzeiger.ch/stichwort/autor/denise-jeitziner/s.html),
+- [Denise Jeitziner](mailto:denise.jeitziner@tamedia.ch), [SonntagsZeitung, Tages-Anzeiger](https://www.tagesanzeiger.ch/stichwort/autor/denise-jeitziner/s.html)
 - [Peter Rohner](mailto:peter.rohner@fuw.ch), [Finanz und Wirtschaft](https://www.fuw.ch/)
 - [Edzard Schade](mailto:edzard.schade@htwchur.ch), [HTW Chur](http://www.htwchur.ch/digital-science/forschung-und-dienstleistung/team/dozierende/edzard-schade.html)
 - [Lea Senn](lea.senn@watson.ch), [Watson](https://www.watson.ch/u/search?q=Lea%20Senn)
