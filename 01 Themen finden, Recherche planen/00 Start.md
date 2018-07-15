@@ -15,5 +15,5 @@ In alphabetischer Reihenfolge:
 - [Lea Senn](lea.senn@watson.ch), [Watson](https://www.watson.ch/u/search?q=Lea%20Senn)
 - [Claudia Stahel](mailto:claudia.stahel@srf.ch), [SRF](https://www.srf.ch/suche?q=claudia+stahel)
 - [Ralf Streule](ralf.streule@tagblatt.ch), [St. Galler Tagblatt](https://www.tagblatt.ch/suche?form%5Bq%5D=ralf+streule)
-- [Priska Wallimann](mailto:priska.wallimann@ringier.ch), [Blick (Ringier)[(https://www.blick.ch/storytelling/2017/whitechristmas/index.html)]
+- [Priska Wallimann](mailto:priska.wallimann@ringier.ch), [Blick (Ringier)](https://www.blick.ch/storytelling/2017/whitechristmas/index.html)]
 - [Yannick Wiget](mailto:yannick.wiget@tages-anzeiger.ch), [Tages-Anzeiger](https://www.tagesanzeiger.ch/stichwort/autor/yannick-wiget/s.html)
