@@ -1,4 +1,4 @@
-#Besonderheiten in der Methodik der datenjournalistischen Recherchen
+# Besonderheiten in der Methodik der datenjournalistischen Recherchen
 - Gleich: Frage -> Thesen. Aber: Frage kann auch durch Datensatz ausgelöst sein
 - Thesen-Check: Berechtigtes öffentliches Interesse: Algorithmenkontrolle ist ein eigenes Relevanz-Kriterium; neue Diskriminierungen
 - Abwägung Aufwand/Ertrag: Der Ertrag ist nicht nur die Story, sondern sind auch die Innovation, der Code, die Daten;  -> siehe Spider;
