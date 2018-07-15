@@ -4,7 +4,6 @@ Der Spesenskandal im britischen Parlament schlug um 2009/10 und in den Jahren da
 
 # Zürich_wie_neu: neue Lokalstories
 
-
 #Influencer Story: Den Datenkraken die Stirn bieten
 #Bundesverwaltungsgerichts-Story: Faktizität in politische Diskussionen bringen
 #Zinssprung der Nationalbank anhand der MM-Sprache vorhersagbar: Prognosetools bauen
