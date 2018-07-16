@@ -1,6 +1,6 @@
 # Setup
 
-## Command Line
+## 01 Command Line Intro
 
 ### Start
 
@@ -123,7 +123,9 @@ brauchen werden, um Websites zu lesen. Also: ```pip install beautifulsoup4```.
 ### Github
 
 - Anleitung zur [Github-Installation](https://gist.github.com/derhuerst/1b15ff4652a867391f03), den Rest werden wir morgen anschauen.
+- ```git clone https://github.com/MAZ-CAS-DDJ/kurs_18_19.git```
 
 ### Letzter Install (vorerst)
 
 - Jetzt, ganz am Ende, installieren wir noch eine letzte Software: Den Texteditor [Atom](https://atom.io/). Das tun wir ganz normal. So, wie ihr es gewohnt seid, Software zu installieren.
+- Wenn noch Zeit bleibt, kurzes Intro zu MD
