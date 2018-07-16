@@ -6,7 +6,6 @@ Beginn / Ende	Mo, **24.09.2018 - Di, 26.03.2019**
 Max. Teilnehmende	12
 Anmeldeschluss	Mi, 15.08.2018
 
-
 ## Themen finden und datenjournalistische Recherchen planen
 **24. September 2018**
 
@@ -19,13 +18,14 @@ Anmeldeschluss	Mi, 15.08.2018
 6. [Setup-Beginn](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/06%20Setup.md), (bsk), 120'
 7. [Feedback](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/07%20Feedback.md)
 
-## Einstieg ins Programmieren: Command Line und Setup
+## Einstieg ins Programmieren: Setup, Github, Jupyter Notebook,
 **25. September 2018**
 
-- (Allenfalls Setup-Probleme beheben, Rückblick Github, (bsk), 20"
-- Arbeitsfluss, erste Bekanntschaft mit Jupyter Notebook, Github, (bsk), 70"
-- Erste Schritte mit der Command Line; und erste Zusatz-Packages (bsk), 90"
-- Arbeit mit riesigen Datensätzen, auch auf der Command Line, (bsk), 90" + 90"
+- Setup-Probleme beheben (bsk), 20'
+- Arbeitsfluss, Github (bsk), 40'
+- Vertiefung Command Line, Arbeit mit riesigen Datensätzen (bsk), 30' + 90'
+- Erste Schritte mit der Command Line, und erste Zusatz-Packages (bsk), 90'
+- Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (90')
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
