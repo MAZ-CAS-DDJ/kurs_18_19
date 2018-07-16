@@ -18,14 +18,14 @@ Anmeldeschluss	Mi, 15.08.2018
 6. [Setup-Beginn](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/06%20Setup.md), (bsk), 120'
 7. [Feedback](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/01%20Themen%20finden%2C%C2%A0Recherche%C2%A0planen/07%20Feedback.md)
 
-## Einstieg ins Programmieren: Setup, Github, Jupyter Notebook,
+## Einstieg ins Programmieren: Setup, Github, Jupyter Notebook
 **25. September 2018**
 
-- Setup-Probleme beheben (bsk), 20'
-- Arbeitsfluss, Github (bsk), 40'
-- Vertiefung Command Line, Arbeit mit riesigen Datensätzen (bsk), 30' + 90'
-- Erste Schritte mit der Command Line, und erste Zusatz-Packages (bsk), 90'
-- Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (90')
+1. Setup-Probleme beheben, Github (bsk), 30'
+2. Arbeitsfluss (bsk), 30'
+3. Rückblick Commandline, navigation, talk, grep and piping (bsk), 60' + 60'
+4. Zusatz-Packages auf der Commandline: wget & curl, pip, csvkit (bsk), 90'
+5. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (90')
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
