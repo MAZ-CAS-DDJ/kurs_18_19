@@ -1,7 +1,7 @@
 # Vorstellungsrunden (30'):
 - Begrüssung (ds)
 - [Dominique Stebel](mailto:dominique.strebel@maz.ch), [Barnaby Skinner](mailto:barnaby.skinner@tamedia.ch), weitere Dozenten, Technical Assistant (bsk, ds)
-- Vorstellungsrunde TN: Name, Medium, Bezug zum Datenjournalismus, Programmiererfahrung, Erwartungen
+- Vorstellungsrunde TN: Name, Medium, Bezug zum Datenjournalismus, Programmiererfahrung, Erwartungen, 1 Geschichte
 
 # Die Teilnehmenden
 In alphabetischer Reihenfolge:
