@@ -22,10 +22,10 @@ Anmeldeschluss	Mi, 15.08.2018
 **25. September 2018**
 
 1. Setup-Probleme beheben, Github (bsk), 30'
-2. Arbeitsfluss (bsk), 30'
-3. Rückblick Commandline, navigation, talk, grep and piping (bsk), 60' + 60'
-4. Zusatz-Packages auf der Commandline: wget & curl, pip, csvkit (bsk), 90'
-5. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (90')
+2. Rückblick Commandline, Navigation, talk, grep and piping (bsk), 60' + 60'
+3. Zusatz-Packages auf der Commandline: wget & curl, pip, csvkit (bsk), 90'
+4. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input) (90')
+5. Arbeitsfluss (bsk), 30'
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
