@@ -16,5 +16,10 @@ Github ist nicht die einzige Plattform seiner Art: [Bitbucket](https://bitbucket
 
 ## Die eigene Github-Repo
 
-- Repo ist die Abkürzung von Repository, was auf Englisch Lager oder Depot heisst. Depot gefällt mir hier ganz gut. Wir ein Depot für Code, den man gelegentlich raus nimmt, herumfährt, verbessert und dann wieder im Depot versorgt.
+- Repo ist die Abkürzung von Repository, was auf Englisch Lager oder Depot heisst. Depot gefällt mir hier ganz gut. Statt einen Zug halten wir Code im Depot. Wir nehmen ihn gelegentlich raus, fahren ihn herum, verbessern ihn und versorgen ihn dann wieder im Depot.
+- Wir werden jetzt die erste eigene Repo kreieren. Dazu brauchen wir ein Nutzerkonto auf Github.
+- Start a Project.
+- Name, Beschreibung, setzen wir die Repo auf öffentlich, wir können auch private Repos einrichten, die man nicht mit der Öffentlichkeit teilen will.
+- gitignore "Python" auswählen. Aber eigentlich ist es egal. Wir werden das ohnehin noch ergänzen. Gitignore sorgt dafür, dass die auf dem Computer versteckten Dateien nicht auch noch mitgeliefert werden. Wenn wir die versteckten Files in einem Ordner sehen wollen, navigieren wir im Terminal auf in diesen Ordner, und geben ```ls -a```ein. Nun erscheinen sie alle.
+- Lizenz ergänzen. Wählt MIT aus. Alles darf geteilt werden. Und der Code darf auch kommerziell genutzt werden. Die einzige Bedingung ist, dass der Code, der damit funktioniert, ebenfalls frei verfügbar genutzt werden kann. Wer mehr darüber wissen will, kann [hier mehr lesen](https://en.wikipedia.org/wiki/MIT_License). 
 -
