@@ -21,9 +21,9 @@ Anmeldeschluss	Mi, 15.08.2018
 ## Einstieg ins Programmieren: Setup, Github, Jupyter Notebook
 **25. September 2018**
 
-1. Github, Stack Overflow, Code Review, Documentation (bsk), 30'
+1. Github (bsk), 30'
 2. Rückblick Commandline, Navigation, talk, grep and piping (bsk), 60' + 60'
-3. Zusatz-Packages auf der Commandline: wget & curl, pip, csvkit (bsk), 90'
+3. Zusatz-Packages auf der Commandline: pip, wget & curl, csvkit, Documentation (bsk), 90'
 4. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input) (90')
 5. Arbeitsfluss (bsk), 30'
 
