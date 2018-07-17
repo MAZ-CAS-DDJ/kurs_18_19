@@ -1,8 +1,8 @@
 # Github Einführung
 
-Wir haben [Github](https://github.com/) bereits gestern kennengelernt, als wir den gesamten Inhalt dieses Kurses auf unser Gerät installiert haben. Dieser Ordner soll euch als Referenz gelten. Und hier von hier werdet ihr die Hausaufgaben herauskopieren. Aber dazu später mehr.
+Wir haben [Github](https://github.com/) bereits gestern kennengelernt, als wir den gesamten Inhalt dieses Kurses auf unser Gerät installiert haben. Dieser Ordner soll euch als Referenz gelten. Und von hier werdet ihr die Hausaufgaben herauskopieren. Aber dazu später mehr.
 
-Es handelt sich bei Github um die wohl grösste Ansammlung von offenem Code, den es auf der Welt gibt. Die Plattform ist so etwas wie das Facebook für Programmierer. Nur, dass hier ein System entwickelt wurde, das dafür sorgt, dass ihre Nutzer kreativ sind. Github ist natürlich nicht frei von Viren oder anderem schädlichen Code. Doch weil der ganze Code hier offen ist, ist es für Kriminelle sehr viel schwieriger, schädliche Software hier zu publizieren.
+Es handelt sich bei Github um die wohl grösste Ansammlung von offenem Code, den es auf der Welt gibt. Die Plattform ist so etwas wie das Facebook für Programmierer. Nur, dass hier ein System entwickelt wurde, das dafür sorgt, dass ihre Nutzer kreativ sind. Github ist natürlich nicht frei von Viren oder anderem schädlichen Code. Doch weil der ganze Code hier offen ist, ist es für Kriminelle sehr viel schwieriger, schädliche Software hier zu publizieren. Wer mehr dazu lesen will, der findet [hier eine gute Einführung](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
 
 Github ist nicht die einzige Plattform seiner Art: [Bitbucket](https://bitbucket.org) oder [Gitlab](https://about.gitlab.com/) sind andere. Github ist allerdings derzeit die Grösste. Ob das so bleibt, ist ungewiss. Vielen missfällt, dass Microsoft Github gekauft hat. Und vorallem Gitlab erfährt zur Zeit viel Wachstum.
 
@@ -19,7 +19,10 @@ Github ist nicht die einzige Plattform seiner Art: [Bitbucket](https://bitbucket
 - Repo ist die Abkürzung von Repository, was auf Englisch Lager oder Depot heisst. Depot gefällt mir hier ganz gut. Statt einen Zug halten wir Code im Depot. Wir nehmen ihn gelegentlich raus, fahren ihn herum, verbessern ihn und versorgen ihn dann wieder im Depot.
 - Wir werden jetzt die erste eigene Repo kreieren. Dazu brauchen wir ein Nutzerkonto auf Github.
 - Start a Project.
-- Name, Beschreibung, setzen wir die Repo auf öffentlich, wir können auch private Repos einrichten, die man nicht mit der Öffentlichkeit teilen will.
+- Name; Beschreibung; setzen wir die Repo auf öffentlich, wir können auch private Repos einrichten, die man nicht mit der Öffentlichkeit teilen will.
 - gitignore "Python" auswählen. Aber eigentlich ist es egal. Wir werden das ohnehin noch ergänzen. Gitignore sorgt dafür, dass die auf dem Computer versteckten Dateien nicht auch noch mitgeliefert werden. Wenn wir die versteckten Files in einem Ordner sehen wollen, navigieren wir im Terminal auf in diesen Ordner, und geben ```ls -a```ein. Nun erscheinen sie alle.
-- Lizenz ergänzen. Wählt MIT aus. Alles darf geteilt werden. Und der Code darf auch kommerziell genutzt werden. Die einzige Bedingung ist, dass der Code, der damit funktioniert, ebenfalls frei verfügbar genutzt werden kann. Wer mehr darüber wissen will, kann [hier mehr lesen](https://en.wikipedia.org/wiki/MIT_License). 
--
+- Lizenz ergänzen. Wählt MIT aus. Alles darf geteilt werden. Und der Code darf auch kommerziell genutzt werden. Die einzige Bedingung ist, dass der Code, der damit funktioniert, ebenfalls frei verfügbar genutzt werden kann. Wer mehr darüber wissen will, kann [hier mehr lesen](https://en.wikipedia.org/wiki/MIT_License).
+- Nun müssen wir unserem Computer die Berechtigung geben, dass er sich mit Github austauschen darf. Wir gehen also zum Terminal und navigieren zum Desktop. Das müssen wir jeweils nur einmal machen.
+- ```git config --global user.name "Peter Müller"```, derselbe Nutzername, den wir auf Github benutzt haben.
+- ```git config --global user.email deine@email.com```, dieselbe Email, die ihr auf Github gebraucht habt.
+- ```git config --global user.password "your password"```, und nun setzt ihr noch das Password. Alle diese Informationen werden nun einem File abgespeichert, den ihr nicht mehr bedienen müsst.
