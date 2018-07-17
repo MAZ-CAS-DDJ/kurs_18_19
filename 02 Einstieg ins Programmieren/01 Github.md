@@ -26,3 +26,12 @@ Github ist nicht die einzige Plattform seiner Art: [Bitbucket](https://bitbucket
 - ```git config --global user.name "Peter Müller"```, derselbe Nutzername, den wir auf Github benutzt haben.
 - ```git config --global user.email deine@email.com```, dieselbe Email, die ihr auf Github gebraucht habt.
 - ```git config --global user.password "your password"```, und nun setzt ihr noch das Password. Alle diese Informationen werden nun einem File abgespeichert, den ihr nicht mehr bedienen müsst.
+- Mit ```git config --list```könnt ihr alles überprüfen.
+- Nun clonen wir die eben geschaffene Repo. Dazu holen wir die URL und geben folgendes in den Terminal ein: ```git clone DEINEURL```. Auch das müssen wir natürlich nur einmal machen.
+- Jetzt sind wir startbereit. Schauen wir, ob alles so funktioniert, wie es sollte. Öffnen wir im Terminal das README.md file mit Atom. Dazu geben wir in das Terminal ein: ``atom README.md```
+- Ergänzen wir folgenden Text im Readme-File: "Das ist mein Titel", wir speichern es ab, nicht vergessen. Und nun synchronisieren wir unser Folder mit Github.
+- ```git add .```Alles in diesem Folder wird ergänzt. Wir könnten auch spefizische Folder ergänzen, statt einem "Punkt" würden wir den Namen des Folders in "eingeben".
+- ```git commit -m "nachricht"```mit diesem Befehl geben wir der Aktion einen Namen. Das ist für sehr komplexe Projekte hilfreich.
+- ```git push```Nun wird alles in die Cloud gepusht. Wenn es Unstimmigkeiten gibt, sorgen die ersten beiden Befehl dafür, dass alles erhalten bleibt, nicht wird überschrieben. Aber das sollte jetzt nicht passieren, weil ihr die einzigen seid, die mit diesem Github-Repo arbeitet.
+- Üben wir das nun. Macht ein neues File. Nennt es File "01 Dokument". Schreibt ein paar Sätze rein. Dann pusht es auf Github. Nun geht ihr auf Slack. Und teilt eure Repo mit allen.
+- Genauso in diesem Prozess werdet ihr Hausaufgaben lösen. 
