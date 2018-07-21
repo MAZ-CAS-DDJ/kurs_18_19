@@ -22,9 +22,9 @@ Anmeldeschluss	Mi, 15.08.2018
 **25. September 2018**
 
 1. [Github Einführung](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/01%20Github.md) (bsk), 30'
-2. Rückblick Commandline, Navigation, talk, grep and piping (bsk), 60' + 60'
+2. Rückblick Commandline, Navigation, talk, cron, grep and piping (bsk), 60' + 60'
 - Übung 1
-3. Zusatz-Packages auf der Commandline: pip, wget & curl, csvkit, Documentation (bsk), 90'
+3. Zusatz-Packages auf der Commandline: wget, csvkit, Documentation (bsk), 90'
 4. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input) (90')
 5. Arbeitsfluss (bsk), 30'
 
