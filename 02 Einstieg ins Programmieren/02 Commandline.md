@@ -48,7 +48,7 @@ Wir haben gesten alle SNF-Projekte heruntergeladen. Für die, die nicht mehr wis
 - Das Ergebnis zählt eigentlich nicht nur die Wörter, sondern die Linien, die Wörter und die Zeichen.
 - Zeigen wir nur die Zeilen an: ```wc -l P3P3_GrantExport.csv```. Das gleich können wir nun auch für die Wörter: ```wc -w P3P3_GrantExport.csv``` oder die Zeichen ```wc -m P3P3_GrantExport.csv``` tun. Wer mehr für ```wc```wissen will, googelt ```wc unix```. So viel mehr kann wc aber nicht wirklich, aber es ist sehr nützlich, um sich über eine grössere Datensammlunge eine Übersicht zu verschaffen.
 
-## grep
+## grep und Piping
 
 Grep steht für "Globally search a Regular Expression and Print". Also: Ein bestimmtes Textmuster suchen und das Resultat dann ausdrucken. Macht das Sinn?
 
@@ -56,12 +56,15 @@ Versuchen wir es.
 
 - Geben wir folgendes ein ```grep "Geschichte" P3_GrantExport.csv```
 - Wir bekommen ein Fenster voller Text in der Commandline. Diesen ganze Inhalt können wir abspeicher, folgendermassen ```grep "Geschichte" P3_GrantExport.csv > geschichte.csv```
-- Auf eurem Desktop sollte nun ein File mit dem Namen "geschichte.csv" erscheinen. Versucht das nun mit Excel zu öffnen.
+- Auf eurem Desktop sollte nun ein File mit dem Namen "geschichte.csv" erscheinen. Versucht das nun mit Excel oder Google Spreadsheets zu öffnen. Das macht schon sehr viel mehr Sinn.
+- Wir können Befehle auch kombinieren. Also **wc** und **grep**. Mit dem Piping-Zeichen. Auf dem Mac findet ihr das Zeichen mit "alt" und 7.
+- Dann geben wir ein ``grep "Geschichte" P3_GrantExport.csv | wc -l```
+- Mit dieser Suche ist der Buchstabe Wichtig
 
+Üben wir ein bisschen:
 
+- Übung 3
 
+Mit diesen Befehlen kann man theoretisch riesiege Dateien befragen. Und es gibt viele Forscher, die damit sehr umfangreiche Analysen machen. Wenn ihr mehr wissen wollt, [schaut euch dieses Buch an](https://www.datascienceatthecommandline.com/).
 
-
-
-
-#piping, wget, file abspeichern mit Datum
+Als nächstes wollen wir uns weitere Zusatz-Packages anschauen, um Daten kennenzulernen.
