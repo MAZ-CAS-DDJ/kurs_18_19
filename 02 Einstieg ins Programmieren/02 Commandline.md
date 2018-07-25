@@ -2,13 +2,13 @@
 
 ## Navigation
 
-Wir haben die Commandline oder den Terminal bereits gestern kennengelernt. Damit installieren wir neue Programme, wir halten alten aktuell, und wir können damit unsere Eigen-Kreationen, unsere eigene Programme auslösen. Sehr oft, können wir auf das Terminal dazu nutzen, sehr komplexe Aufgaben zu lösen.
+Wir haben die Commandline oder den Terminal bereits gestern kennengelernt. Damit installieren wir neue Programme, wir halten alten aktuell, und wir können damit unsere Eigen-Kreationen, unsere eigene Programme auslösen. Das Terminal können wir auch dazu nutzen, sehr komplexe Aufgaben zu lösen.
 
 Deshalb wollen wir uns dieses Werkzeug näher anschauen, bevor wir uns in die Python-Pogrammiersprache stürzen.
 
-Zuerst wollen wir damit üben:
+Üben wir zunächst etwas mit dem Terminal.
 
-- Übung 1
+- [Übung 1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung1.md)
 
 ## Say
 
@@ -42,7 +42,15 @@ So, wir können also bereits Aufgaben automatisieren. Das ist schon ziemlich vie
 
 Gehen wir zurück auf die Commandline. Und schauen wir an, wie wir damit riesiege Datensätze befragen und behandelnd können.
 
-Wir haben gesten alle SNF-Projekte heruntergeladen. Für die, die nicht mehr wissen, wo diese Daten sind. Geht auf die SNF-Site: [http://p3.snf.ch](http://p3.snf.ch) und klicken oben auf [Daten und Dokumentation](http://p3.snf.ch/Pages/DataAndDocumentation.aspx). Dann runter scrollen und [P3_GrantExport.csv](http://p3.snf.ch/P3Export/P3_GrantExport.csv) herunter laden. Ihr solltet am Ende ein File mit circa 36 MB auf eurem Gerät haben. Zieht es auf euren Desktop. Und versucht es mit Excel oder Google Spreadsheets aufzumachen. Nein, macht das nicht! Das Programm kann damit nicht umgehen. Das heisst aber nicht, dass es für euer Gerät ein Problem ist. Die Commandline kann damit locker umgehene. Am besten mit dem Befehl ```grep```.
+Wir haben gesten alle SNF-Projekte heruntergeladen. Für die, die nicht mehr wissen, wo diese Daten sind. Geht auf die SNF-Site: [http://p3.snf.ch](http://p3.snf.ch) und klicken oben auf [Daten und Dokumentation](http://p3.snf.ch/Pages/DataAndDocumentation.aspx). Dann runter scrollen und [P3_GrantExport.csv](http://p3.snf.ch/P3Export/P3_GrantExport.csv) herunter laden. Ihr solltet am Ende ein File mit circa 38 MB auf eurem Gerät haben. Zieht es auf euren Desktop. Und versucht es mit Excel oder Google Spreadsheets aufzumachen. Nein, macht das nicht! Das Programm kann damit nicht umgehen. Das heisst aber nicht, dass es für euer Gerät ein Problem ist. Die Commandline kann damit locker umgehen.
+
+- Zählen wir, wie viele Wörter das File hat: ```wc P3_GrantExport.csv```.
+- Das Ergebnis zählt eigentlich nicht nur die Wörter, sondern die Linien, die Wörter und die Zeichen.
+- Zeigen wir nur die Zeilen an: ```wc -l P3P3_GrantExport.csv```. Das gleich können wir nun auch für die Wörter: ```wc -w P3P3_GrantExport.csv``` oder die Zeichen ```wc -m P3P3_GrantExport.csv``` tun. Wer mehr für ```wc```wissen will, googelt ```wc unix```.
+
+
+
+
 
 Grep steht für "Globally search a Regular Expression and Print". Also: Ein bestimmtes Textmuster suchen und das Resultat dann ausdrucken. Macht das Sinn?
 
