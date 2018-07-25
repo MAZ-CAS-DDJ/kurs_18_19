@@ -1,4 +1,4 @@
-# Rückblick Commandline
+# Rückblick und Vertiefung Commandline
 
 ## Navigation
 
@@ -20,13 +20,13 @@ Aber die Commandline ist natürlich nicht nur dazu da, Dokumente herumzuschieben
 - ```say -v ?```oder```say voice ?```damit können wir alle gespeicherte Sprachen abrufen.
 - Mit dem Befehl ```say -f "namedesfiles"```können wir uns ganze Dokumente vorlesen lassen.
 
-Wirkt der Computer nicht bereits endlich menschlicher, weil er sprechen kann? Aber natürlich spricht er nur dann, wenn wir es ihm sagen. Noch beeindruckender ist, wenn der Computer scheinbar unaufgefordert zu uns spricht.
+Wirkt der Computer nicht bereits menschlicher, weil er sprechen kann? Aber natürlich spricht er nur dann, wenn wir es ihm sagen. Noch beeindruckender ist, wenn der Computer scheinbar unaufgefordert zu uns spricht.
 
-Wir können den Computer sagen, dass er gewisse Tätigkeiten zu genau bestimmten Zeiten ausführt. Mit derselben Funktionialität funktionieren Dutzende Dienste, und Apps. E-Mail-Dienste zum Beispiele. Sie sind je nach Einstellung einfach alle 15 Minuten oder jede Minute so eingestel.
+Wir können den Computer sagen, dass er gewisse Tätigkeiten zu genau bestimmten Zeiten ausführt. Mit derselben Funktionialität funktionieren Dutzende Dienste, und Apps. E-Mail-Dienste zum Beispiele. Sie sind je nach Einstellung einfach alle 15 Minuten oder jede Minute so eingestellt.
 
 ## Crontabs
 
-Damit wir dem Computer entsprechend einstellen können, müssen wir zuerst den entsprechenden Editor auswählen. Das ist das Eingabesystem für unser Gerät. Der gängiste Editor für Unix-Geräte (Apple und Linux) ist der VIM Editor. Dieser ist allerdings ziemlich kompliziert. Wir arbeiten mit dem Nano Editor.
+Damit wir dem Computer entsprechend einstellen können, müssen wir zuerst den entsprechenden Editor auswählen. Auch das können wir mit dem Terminal erledigen. Das ist das Eingabesystem für unser Gerät. Der gängigste Editor für Unix-Geräte (Apple und Linux) ist der VIM Editor. Dieser ist allerdings ziemlich kompliziert. Wir arbeiten besser mit dem Nano Editor.
 
 - Dafür gebt ihr ein: ```export EDITOR=nano```
 - Nun öffnen wir den Crontab: ``crontab -e```
@@ -34,30 +34,29 @@ Damit wir dem Computer entsprechend einstellen können, müssen wir zuerst den e
 - Der Computer wird nun jede Minute "hello you" sagen.
 - Das lässt sich natürlich verfeinern. Wie, erschliesst sich auf der Site [Crontab.guru](https://crontab.guru/).
 
-- Übung 2  
+- [Übung 2](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung2.md)  
 
-So, wir können also bereits Aufgaben automatisieren. Das ist schon ziemlich viel.
+So, nun wir können also bereits Aufgaben automatisieren. Das ist schon ziemlich viel.
 
-## wc, cat, grep
+## wc
 
-Gehen wir zurück auf die Commandline. Und schauen wir an, wie wir damit riesiege Datensätze befragen und behandelnd können.
+Gehen wir zurück auf die Commandline. Und schauen wir an, wie wir damit riesige Datensätze befragen und behandelnd können.
 
 Wir haben gesten alle SNF-Projekte heruntergeladen. Für die, die nicht mehr wissen, wo diese Daten sind. Geht auf die SNF-Site: [http://p3.snf.ch](http://p3.snf.ch) und klicken oben auf [Daten und Dokumentation](http://p3.snf.ch/Pages/DataAndDocumentation.aspx). Dann runter scrollen und [P3_GrantExport.csv](http://p3.snf.ch/P3Export/P3_GrantExport.csv) herunter laden. Ihr solltet am Ende ein File mit circa 38 MB auf eurem Gerät haben. Zieht es auf euren Desktop. Und versucht es mit Excel oder Google Spreadsheets aufzumachen. Nein, macht das nicht! Das Programm kann damit nicht umgehen. Das heisst aber nicht, dass es für euer Gerät ein Problem ist. Die Commandline kann damit locker umgehen.
 
 - Zählen wir, wie viele Wörter das File hat: ```wc P3_GrantExport.csv```.
 - Das Ergebnis zählt eigentlich nicht nur die Wörter, sondern die Linien, die Wörter und die Zeichen.
-- Zeigen wir nur die Zeilen an: ```wc -l P3P3_GrantExport.csv```. Das gleich können wir nun auch für die Wörter: ```wc -w P3P3_GrantExport.csv``` oder die Zeichen ```wc -m P3P3_GrantExport.csv``` tun. Wer mehr für ```wc```wissen will, googelt ```wc unix```.
+- Zeigen wir nur die Zeilen an: ```wc -l P3P3_GrantExport.csv```. Das gleich können wir nun auch für die Wörter: ```wc -w P3P3_GrantExport.csv``` oder die Zeichen ```wc -m P3P3_GrantExport.csv``` tun. Wer mehr für ```wc```wissen will, googelt ```wc unix```. So viel mehr kann wc aber nicht wirklich, aber es ist sehr nützlich, um sich über eine grössere Datensammlunge eine Übersicht zu verschaffen.
 
-
-
-
+## grep
 
 Grep steht für "Globally search a Regular Expression and Print". Also: Ein bestimmtes Textmuster suchen und das Resultat dann ausdrucken. Macht das Sinn?
 
 Versuchen wir es.
 
 - Geben wir folgendes ein ```grep "Geschichte" P3_GrantExport.csv```
-- Wir bekommen ein Fenster voller Text in der Commandline.
+- Wir bekommen ein Fenster voller Text in der Commandline. Diesen ganze Inhalt können wir abspeicher, folgendermassen ```grep "Geschichte" P3_GrantExport.csv > geschichte.csv```
+- Auf eurem Desktop sollte nun ein File mit dem Namen "geschichte.csv" erscheinen. Versucht das nun mit Excel zu öffnen.
 
 
 
