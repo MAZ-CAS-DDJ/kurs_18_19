@@ -1,6 +1,6 @@
 # MAZ CAS Datenjournalismus 18-19
 
-Nr.	J99339
+Nr.	J99339 HELLO
 Kursdauer	20 Tage
 Beginn / Ende	Mo, **24.09.2018 - Di, 26.03.2019**
 Max. Teilnehmende	12
