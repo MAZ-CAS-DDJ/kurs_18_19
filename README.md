@@ -27,6 +27,7 @@ Anmeldeschluss	Mi, 15.08.2018
 - [Übung 2](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung2.md)
 - [Übung 3](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung3.md)
 3. [Zusatz-Packages auf der Commandline: wget, csvkit, Documentation](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/03%20Weitere%20Zusatz-Packages.md) (bsk), 30' + 60'
+- [Übung 4](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung4.md)
 4. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input) (90')
 5. Arbeitsfluss (bsk), 30'
 
