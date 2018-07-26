@@ -10,4 +10,7 @@ Was ist wget? Um die Funktionen kennenzulernen googelt ihr am besten immer nach 
 
 - Zuerst müsst ihr es installieren. Das geschieht mit ```pip install wget```.
 - Mit ```wget --version```erfährt ihr, welche Version ihr nun installiert habt, und, wer eigentlich hinter Wget steckt.
-- Mir ```wget --help```könnte ihr alle Funktionen aufrufen. Das wird euch zunächst nicht viel sagen. Aber lasst euch nicht abschrecken. Ihr müsst nicht alles auf einmal wissen. Und vieles braucht ihr gar nicht zu wissen. Wenn ihr euch entschliesst, dass Wget für euch 
+- Mit ```wget --help```könnte ihr alle Funktionen aufrufen. Das wird euch zunächst nicht viel sagen. Aber lasst euch nicht abschrecken. Ihr müsst nicht alles auf einmal wissen. Und vieles braucht ihr gar nicht zu wissen. Wenn ihr euch entschliesst, dass Wget für euch nichts taugt, müsst ihr euch gar nie damit befassen.
+- Ich verwende wget beispielsweise, um regelmässig Snapshots von Websites oder von Facebook-Gruppen zu nehmen. z.B. ```wget https://www.balthasar-glaettli.ch/```
+- Viele Dienste erkennen Wget als Roboter, deshalb muss man manchmal mitgeben, dass es sich hier um einen Browser handelt, z.B.: ```wget --user-agent=Firefox https://www.facebook.com/glaettli.ch```
+- 
