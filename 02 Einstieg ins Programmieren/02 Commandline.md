@@ -63,7 +63,7 @@ Versuchen wir es.
 
 Üben wir ein bisschen:
 
-- Übung 3
+- [Übung 3](3](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung3.md))
 
 Mit diesen Befehlen kann man theoretisch riesiege Dateien befragen. Und es gibt viele Forscher, die damit sehr umfangreiche Analysen machen. Wenn ihr mehr wissen wollt, [schaut euch dieses Buch an](https://www.datascienceatthecommandline.com/).
 
