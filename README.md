@@ -1,6 +1,6 @@
 # MAZ CAS Datenjournalismus 18-19
 
-Nr.	J99339 
+Nr.	J99339
 Kursdauer	20 Tage
 Beginn / Ende	Mo, **24.09.2018 - Di, 26.03.2019**
 Max. Teilnehmende	12
@@ -25,7 +25,7 @@ Anmeldeschluss	Mi, 15.08.2018
 2. [Rückblick Commandline, Navigation, talk, cron, grep and piping](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/02%20Commandline.md) (bsk), 60' + 60'
 - [Übung 1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung1.md)
 - [Übung 2](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung2.md)
-- [Übung 3](3](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung3.md))
+- [Übung 3](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung3.md)
 3. [Zusatz-Packages auf der Commandline: wget, csvkit, Documentation](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/03%20Weitere%20Zusatz-Packages.md) (bsk), 90'
 4. Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input) (90')
 5. Arbeitsfluss (bsk), 30'
