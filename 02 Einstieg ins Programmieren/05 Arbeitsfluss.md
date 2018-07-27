@@ -22,3 +22,4 @@ Gibt es zu dieser Methode noch irgendwelche Fragen?
 Zum Schluss noch einige Leseempfehlungen, die ihr entweder jetzt oder über die nächsten Tagen lesen könnte:
 - [Why Learning to Code Is So Frustrating](https://hackernoon.com/the-beginner-programmers-curse-why-learning-to-code-is-frustrating-890b91e0822)
 - [Python has brought computer programming to a vast new audience](https://www.economist.com/news/science-and-technology/21746258-and-its-inventor-has-just-stepped-down-python-has-brought-computer-programming)
+- [Data Journalism in 2017 (Google Report)](https://newslab.withgoogle.com/assets/docs/data-journalism-in-2017.pdf)
