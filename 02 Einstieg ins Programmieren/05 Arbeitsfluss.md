@@ -1,4 +1,4 @@
-# Arbeitsfluss
+# Arbeitsfluss und Lektüre
 
 Bevor ihr in den wohlverdienten Feierabend geht, möchte ich noch eine letzte Sache mit euch anschauen. Wenn wir Programmieren sind wir dauernd daran, Sachen nachzuschlagen und zwischen Fenstern hin und her zu wechseln.
 
