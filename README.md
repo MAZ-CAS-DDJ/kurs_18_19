@@ -36,3 +36,18 @@ Anmeldeschluss	Mi, 15.08.2018
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
+
+## Python: APIs und Scraping I
+**1. Oktober 2018**
+
+1. ```Requests``` (bsk), 90'
+3. APIs (bsk), 90'
+3. HTML Code (bsk), 30'
+4. ```BeaufitulSoup``` (bsk), 60' + 90'
+
+## Python: APIs und Scraping II
+**2. Oktober 2018**
+
+1. API und Authentifikation (Twitter) (bsk), 90'
+2. Noch mehr ```BeautifulSoup```(bsk), 90' + 90'
+3. Dictionaries bauen und erste Bekanntschaft mit Pandas (bsk), 90'
