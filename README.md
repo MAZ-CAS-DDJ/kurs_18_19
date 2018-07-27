@@ -40,7 +40,7 @@ Anmeldeschluss	Mi, 15.08.2018
 ## Python: APIs und Scraping I
 **1. Oktober 2018**
 
-1. ```Requests``` (bsk), 90'
+1. [```Requests```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/01%20Requests.ipynb) (bsk), 90'
 3. APIs (bsk), 90'
 3. HTML Code (bsk), 30'
 4. ```BeaufitulSoup``` (bsk), 60' + 90'
