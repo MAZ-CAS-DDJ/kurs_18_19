@@ -41,11 +41,12 @@ Anmeldeschluss	Mi, 15.08.2018
 **1. Oktober 2018**
 
 1. [```Requests & APIs```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/01%20Requests.ipynb) (bsk), 90' + 30'
-- [Übung 1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung1.ipynb)
+- [Übung1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung1.ipynb)
 2. [HTML Code](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/02%20HTML%20Code.htm) (bsk), 60'
 - [Übung2](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/02%20Anatomie_einer_Website.pdf)
 3. [```BeautifulSoup```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/03%20BeautifulSoup%20.ipynb) (bsk), 90' + 90'
 - [Übung3](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung3.ipynb)
+- Übung4
 
 ## Python: APIs und Scraping II
 **2. Oktober 2018**
