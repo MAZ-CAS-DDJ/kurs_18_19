@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import datetime
 import sys
 
 def kommentarezaehlen(url):
@@ -23,7 +24,9 @@ def kommentarezaehlen(url):
                  'Kommentar': k}
         lst.append(mini_dict)
 
-    return print(pd.DataFrame(lst))
+    now = datetime.datetime.now()
+    
+    return pd.DataFrame(lst).to_csv(str(now)+'-watson.csv')
 
 if __name__== "__main__":
     kommentarezaehlen(sys.argv[1])
