@@ -51,6 +51,6 @@ Anmeldeschluss	Mi, 15.08.2018
 ## Python: APIs und Scraping II
 **2. Oktober 2018**
 
-1. APIs und Authentifikation (Twitter) (bsk), 90'
+1. [APIs und Authentifikation (Google)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
 2. Noch mehr ```BeautifulSoup```(bsk), 90' + 90'
 3. Dictionaries bauen und erste Bekanntschaft mit Pandas (bsk), 90'
