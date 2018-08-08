@@ -61,7 +61,7 @@ Anmeldeschluss	Mi, 15.08.2018
 
 ## Selenium, Rückblick und Ausblick auf die Projekte
 **5. Oktober**
-1. Selenium-Setup (bsk), 30'
+1. [Selenium-Setup](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/10%20Selenium%2C%20Projekte/01%20Selenium%20Setup.ipynb) (bsk), 30'
 2. Arbeit mit Selenium (bsk), 60' + 90'
 3. Rückblick: Wo braucht es mehr Vertiefung? (bsk), 60'
 4. Ausblick auf Projekte (bsk), 30' + 90'
