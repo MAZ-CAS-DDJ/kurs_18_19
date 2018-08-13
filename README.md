@@ -54,7 +54,7 @@ Anmeldeschluss	Mi, 15.08.2018
 1. [APIs und Authentifizierung (Google)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
 2. [Noch mehr ```BeautifulSoup```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/02%20Noch%20mehr%20BeautifulSoup.ipynb)(bsk), 90' + 90'
 - [Übung1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung4.ipynb)
-3. [Ausblick auf Pandas(https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
+3. [Ausblick auf Pandas](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
 
 ## Pandas
 **3. und 4. Oktober**
