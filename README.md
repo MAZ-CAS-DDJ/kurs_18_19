@@ -1,4 +1,4 @@
-# MAZ CAS Datenjournalismus 18-19
+# [MAZ CAS Datenjournalismus 18-19](http://www.maz.ch/journalismus-kurse/kurs/cas-datenjournalismus-18-19/ansicht/show/)
 
 Nr.	J99339
 Kursdauer	20 Tage
