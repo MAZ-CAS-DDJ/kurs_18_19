@@ -51,6 +51,17 @@ Anmeldeschluss	Mi, 15.08.2018
 ## Python: APIs und Scraping II
 **2. Oktober 2018**
 
-1. [APIs und Authentifikation (Google)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
-2. Noch mehr ```BeautifulSoup```(bsk), 90' + 90'
-3. Dictionaries bauen und erste Bekanntschaft mit Pandas (bsk), 90'
+1. [APIs und Authentifizierung (Google)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
+2. [Noch mehr ```BeautifulSoup```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/02%20Noch%20mehr%20BeautifulSoup.ipynb)(bsk), 90' + 90'
+- [Übung1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung4.ipynb)
+3. [Ausblick auf Pandas(https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
+
+## Pandas
+**3. und 4. Oktober**
+
+## Selenium, Rückblick und Ausblick auf die Projekte
+**5. Oktober**
+1. [Selenium-Setup](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/10%20Selenium%2C%20Projekte/01%20Selenium%20Setup.ipynb) (bsk), 30'
+2. [Arbeit mit Selenium](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/10%20Selenium%2C%20Projekte/02%20Arbeit%20mit%20Selenium.ipynb) (bsk), 60' + 90'
+3. Rückblick: Wo braucht es mehr Vertiefung? (bsk), 60'
+4. Ausblick auf Projekte (bsk), 30' + 90'
