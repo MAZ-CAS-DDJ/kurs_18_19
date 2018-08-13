@@ -33,6 +33,7 @@ Anmeldeschluss	Mi, 15.08.2018
 - [Übung 4](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung4.md)
 4. [Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/04%20Jupyter.md) (bsk), 100'
 5. [Arbeitsfluss und Lektüre](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/05%20Arbeitsfluss.md) (bsk), 20'
+- [Hausaufgabe](XXXXXXXX)
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
