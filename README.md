@@ -33,6 +33,7 @@ Anmeldeschluss	Mi, 15.08.2018
 - [Übung 4](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/%C3%9Cbung4.md)
 4. [Erste Bekanntschaft mit Jupyter Notebook, und erstes Programm (print, input)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/04%20Jupyter.md) (bsk), 100'
 5. [Arbeitsfluss und Lektüre](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/02%20Einstieg%20ins%20Programmieren/05%20Arbeitsfluss.md) (bsk), 20'
+- [Hausaufgabe](XXXXXXXX)
 
 ## Python: Grundbegriffe
 **26., 27. und 28. September 2018**
@@ -54,7 +55,7 @@ Anmeldeschluss	Mi, 15.08.2018
 1. [APIs und Authentifizierung (Google)](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/APIs%20und%20Authentifikation%20(Google%20API).ipynb) (bsk), 90'
 2. [Noch mehr ```BeautifulSoup```](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/02%20Noch%20mehr%20BeautifulSoup.ipynb)(bsk), 90' + 90'
 - [Übung1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung4.ipynb)
-3. [Ausblick auf Pandas(https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
+3. [Ausblick auf Pandas](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
 
 ## Pandas
 **3. und 4. Oktober**
