@@ -6,6 +6,9 @@ Beginn / Ende	Mo, **24.09.2018 - Di, 26.03.2019**
 Max. Teilnehmende	12
 Anmeldeschluss	Mi, 15.08.2018
 
+## Dokumenten-Archiv
+0. [Methodik der datenjournalistischen Recherche](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/00%20weitere%C2%A0Dokumente/18_08_13_Methodik%20einer%20datenjournalistischen%20Recherche.pdf)
+
 ## Themen finden und datenjournalistische Recherchen planen
 **24. September 2018**
 
