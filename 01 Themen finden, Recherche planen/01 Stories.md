@@ -16,4 +16,4 @@ Oft fehlen wichtigen politischen Diskussionen zentrale Fakten. Zum Beispiel, ob 
 
 # Zinssprung der Nationalbank anhand der MM-Sprache vorhersagbar: Prognosetools bauen
 
-# Reserve: Facebook_Ad_Story: mit zwei Stunden Aufwand eine international beachtete Story finden, die in einer Politdiskussion Faktizität
+# Reserve: Facebook_Ad_Story: mit zwei Stunden Aufwand eine international beachtete Story finden, die in einer Politdiskussion Faktizität herstellt
