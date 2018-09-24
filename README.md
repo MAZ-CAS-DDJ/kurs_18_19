@@ -60,8 +60,17 @@ Anmeldeschluss	Mi, 15.08.2018
 - [Übung1](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/06%20APIs%2C%20Scraping%20I/%C3%9Cbung4.ipynb)
 3. [Ausblick auf Pandas](https://github.com/MAZ-CAS-DDJ/kurs_18_19/blob/master/07%C2%A0APIs%2C%20Scraping%20II/03%20Pandas%20Einf%C3%BChrung.ipynb) (bsk), 90'
 
-## Pandas
-**3. und 4. Oktober**
+## Pandas Einführung, Teil 1
+**3. Oktober**
+1. Ein DDJ-Beispiel: [Film dialogues from 2000 screenplays](https://pudding.cool/2017/03/film-dialogue/) (ssc), 20'
+2. Ein paar Worte und eine [Klick-Only Demo]() (ssc), 20'
+3. Übung 1: [Datensets explorieren - death sentences]() (ssc), 60'
+4. [Hilfsmaterialien]
+5. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars]
+6. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime]
+
+## Pandas Einführung, Teil 2
+**4. Oktober**
 
 ## Selenium, Rückblick und Ausblick auf die Projekte
 **5. Oktober**
