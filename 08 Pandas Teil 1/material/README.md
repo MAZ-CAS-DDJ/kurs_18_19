@@ -2,7 +2,7 @@
 
 ## Cheat Sheets
 - [Data Wrangling with Pandas](Pandas_Cheat_Sheet.pdf) - Eine optisch sehr hübsche Übersicht
-- [Simons Cheat Sheet](pandas.py) - Meine Notizen, neu mit Links aufgemotzt
+- [Simons Cheat Sheet](pandas.py) - Meine Notizen, in Rohform
 
 ## Tutorials
 - [Liste von Tutorials](https://pandas.pydata.org/pandas-docs/stable/tutorials.html) - Offizielles Verzeichnis
