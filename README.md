@@ -62,20 +62,25 @@ Anmeldeschluss	Mi, 15.08.2018
 
 ## Pandas Einführung, Teil 1
 **3. Oktober**
-1. Ein DDJ-Beispiel: [Film dialogues from 2000 screenplays](https://pudding.cool/2017/03/film-dialogue/) (ssc), 20'
-2. Ein paar Worte und eine [Klick-Only Demo]() (ssc), 20'
-3. Übung 1: [Datensets explorieren - death sentences]() (ssc), 100'
-4. Ein DDJ-Beispiel: [America is more diverse than ever, but still segregated](https://www.washingtonpost.com/graphics/2018/national/segregation-us-cities/)
-5. [Hilfsmaterialien](08%20Pandas%20Teil%201/material/) (ssc), 20'
-6. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars]() (ssc), 100'
-7. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime](), (ssc) 60'
+1. Ein DDJ-Beispiel: [Film dialogues from 2000 screenplays](https://pudding.cool/2017/03/film-dialogue/) (ssc), 10'
+1. Einführung in Pandas: [Klick-Only Demo - military conflicts](08%20Pandas%20Teil%201/Einführung%20Pandas.ipynb) (ssc), 20'
+1. Übung 1: [Datensets explorieren - death sentences](08%20Pandas%20Teil%201/Daten%20explorieren.ipynb) *([Lösung]())* (ssc), 100'
+1. Ein DDJ-Beispiel: [America is more diverse than ever, but still segregated](https://www.washingtonpost.com/graphics/2018/national/segregation-us-cities/) (ssc), 10'
+1. [Hilfsmaterialien](08%20Pandas%20Teil%201/material/) (ssc), 20'
+1. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars](08%20Pandas%20Teil%201/Filter%20und%20Felder%20kombinieren.ipynb) *([Lösung]())* (ssc), 100'
+1. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime]() *([Lösung]())*, (ssc) 60'
 
 ## Pandas Einführung, Teil 2
 **4. Oktober**
-- Ein DDJ-Beispiel: [Pick your own Brexit](https://www.bloomberg.com/graphics/2018-pick-your-own-brexit/)
-- ...
-- Ein DDJ-Beispiel: [Bussed out](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study)
-- ...
+1. Ein DDJ-Beispiel: [Pick your own Brexit](https://www.bloomberg.com/graphics/2018-pick-your-own-brexit/) (ssc), 10'
+1. Unterricht: [Dataframes handling - Peter, Paul und Maria](09%20Pandas%20Teil%202/Dataframes Handling.ipynb) (ssc), 45'
+1. Übung 1: [Daten klassifizieren - SNF-Grants](09%20Pandas%20Teil%202/Daten klassifizieren.ipynb) *([Lösung]())* (ssc), 100'
+1. Ein DDJ-Beispiel: [Bussed out](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study) (ssc), 10'
+1. Übung 2: [Daten kombinieren - Immobilienboom](09%20Pandas%20Teil%202/Daten%20kombinieren.ipynb) *([Lösung]())* (ssc), 100'
+1. Hife und Homeworks (ssc), 60'
+1. Homework 1: [Charts formatieren]() *([Lösung]())*
+1. Homework 2: [More sort & filter]() *([Lösung]())*
+
 
 ## Selenium, Rückblick und Ausblick auf die Projekte
 **5. Oktober**
