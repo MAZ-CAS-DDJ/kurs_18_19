@@ -32,7 +32,7 @@ dictsoflists: {'field1': [value1, value3], 'field2': [value2, value4}
 ### Data in
 
 **`df = pd.read_csv("file.csv")`**                  *- Create a DF from a CSV file*
--    nrows=59                                     *- to only get a number of rows*
+-    `nrows=59`                                     *- to only get a number of rows*
 -    na_values=["string1", "string2", ...]        *- to specify values to ignore*
 -    dtype=str                                    *- treat everything as strings*
 -    sep="\t"                                     *- for tab-delimited files*
