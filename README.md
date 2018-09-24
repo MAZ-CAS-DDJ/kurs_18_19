@@ -64,13 +64,18 @@ Anmeldeschluss	Mi, 15.08.2018
 **3. Oktober**
 1. Ein DDJ-Beispiel: [Film dialogues from 2000 screenplays](https://pudding.cool/2017/03/film-dialogue/) (ssc), 20'
 2. Ein paar Worte und eine [Klick-Only Demo]() (ssc), 20'
-3. Übung 1: [Datensets explorieren - death sentences]() (ssc), 60'
-4. [Hilfsmaterialien]
-5. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars]
-6. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime]
+3. Übung 1: [Datensets explorieren - death sentences]() (ssc), 100'
+4. Ein DDJ-Beispiel: [America is more diverse than ever, but still segregated](https://www.washingtonpost.com/graphics/2018/national/segregation-us-cities/)
+5. [Hilfsmaterialien]() (ssc), 20'
+6. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars]() (ssc), 100'
+7. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime](), (ssc) 60'
 
 ## Pandas Einführung, Teil 2
 **4. Oktober**
+- Ein DDJ-Beispiel: [Pick your own Brexit](https://www.bloomberg.com/graphics/2018-pick-your-own-brexit/)
+- ...
+- Ein DDJ-Beispiel: [Bussed out](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study)
+- ...
 
 ## Selenium, Rückblick und Ausblick auf die Projekte
 **5. Oktober**
