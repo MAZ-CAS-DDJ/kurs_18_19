@@ -66,7 +66,7 @@ Anmeldeschluss	Mi, 15.08.2018
 2. Ein paar Worte und eine [Klick-Only Demo]() (ssc), 20'
 3. Übung 1: [Datensets explorieren - death sentences]() (ssc), 100'
 4. Ein DDJ-Beispiel: [America is more diverse than ever, but still segregated](https://www.washingtonpost.com/graphics/2018/national/segregation-us-cities/)
-5. [Hilfsmaterialien]() (ssc), 20'
+5. [Hilfsmaterialien](08%20Pandas%20Teil%201/material/) (ssc), 20'
 6. Übung 2: [Filtern und Felder kombinieren - NBA All-Stars]() (ssc), 100'
 7. Homework und Hilfe: [Explorieren, Filtern, Kombinieren - Altersheime](), (ssc) 60'
 
