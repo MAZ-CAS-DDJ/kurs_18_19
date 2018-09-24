@@ -2,26 +2,26 @@
 **pip install pandas**
 
 ## SET UP
-**import numpy as np**                      #need this for NaN
+**import numpy as np**                      *- need this for NaN*
 
 ## DISPLAY OPTIONS
-**pd.set_option**("optionName", value)      #Change the behavior of displayed content in notebooks
--    "display.max_rows"                  #the number of rows of a DataFrame
--    "display.max_columns"               #The number of columns of a DataFrame
--    "display.max_colwidth"              #The number of chars inside a column
--    "display.float_format"              # something like "{:,.0f}".format
+**pd.set_option**("optionName", value)      *- Change the behavior of displayed content in notebooks*
+-    "display.max_rows"                  *- the number of rows of a DataFrame*
+-    "display.max_columns"               *- The number of columns of a DataFrame*
+-    "display.max_colwidth"              *- The number of chars inside a column*
+-    "display.float_format"              *- something like "{:,.0f}".format*
 
 **pd.options.display.max_rows**             #to display the current settings
 
 ## DATA IN AND OUT
 **df = pd.read_csv**("file.csv")
--    nrows=59                            #to only get a number of rows
--    na_values=["string1", "string2", ...] #to specify values to ignore
--    dtype=str                           #treat everything as strings
--    sep="\t"                            #for tab-delimited files
--    error_bad_lines=False               #Ignore errors (i.e. too many fields on a line)
--    header=None                         #use if csv has no header-row
--    names=["id", "cat"]                 #specify column names to be used
+-    nrows=59                            *- to only get a number of rows*
+-    na_values=["string1", "string2", ...] *-to specify values to ignore*
+-    dtype=str                           *- treat everything as strings*
+-    sep="\t"                            *- for tab-delimited files*
+-    error_bad_lines=False               *- Ignore errors (i.e. too many fields on a line)*
+-    header=None                         *- use if csv has no header-row*
+-    names=["id", "cat"]                 *- specify column names to be used*
 
 df = pd.read_excel("file.xlsx")
 -    sheetname="name"                    #the name of the sheet inside excel
