@@ -1,11 +1,11 @@
-#INSTALL
+## INSTALL
 pip install pandas
 
-#SET UP
+## SET UP
 import pandas as pd
 import numpy as np                      #need this for NaN
 
-#DISPLAY OPTIONS
+## DISPLAY OPTIONS
 pd.set_option("optionName", value)      #Change the behavior of displayed content in notebooks
     "display.max_rows"                  #the number of rows of a DataFrame
     "display.max_columns"               #The number of columns of a DataFrame
@@ -14,7 +14,7 @@ pd.set_option("optionName", value)      #Change the behavior of displayed conten
 
 pd.options.display.max_rows             #to display the current settings
 
-#DATA IN AND OUT
+## DATA IN AND OUT
 df = pd.read_csv("file.csv")
     nrows=59                            #to only get a number of rows
     na_values=["string1", "string2", ...] #to specify values to ignore
@@ -38,7 +38,7 @@ df.to_dict()                            #save dataframe as dictionary
 df.to_json()                            #save as json-string (almost like to_dict)
     orient="records"/"index"
 
-#CONSTRUCTOR
+## CONSTRUCTOR
 df = pd.DataFrame(listofdics)           #create a DF from a list of dictionaries
     columns=["col1", "col2"]            #specify order of columns
 
@@ -54,33 +54,33 @@ df = pd.DataFrame(                      #other possibility
 
 s = pd.Series(dict)                     #construct a Series from a dict
 
-#SERIES AND DATAFRAMES
+## SERIES AND DATAFRAMES
 .to_frame()                             #converts a series into a dataframe
 
-#BASICS
+## BASICS
 ?                                       #get help on a method ( e.g. type pd.head? )
 NaN                                     #Placeholder for missing data
 np.nan                                  #code for nan (need to import numpy as np)
 
-#GET TABULAR DATA (DATAFRAME OBJECTS)
+## GET TABULAR DATA (DATAFRAME OBJECTS)
 df                                      #represents whole table
 df.field1                               #fetch only one column
 df["field1"]                            #alternative notation
 df[["field1", "field2"]]                #fetch several columns
 df[condition]                           #only fetch rows where condition is true
 
-#GET SINGLE ROW
+## GET SINGLE ROW
 df.loc[index]                           #get row at particular index
 df.iloc[integer]                        #treat index as if it was a range of integers
 
-#PROPERTIES OF DATAFRAME OBJECTS
+## PROPERTIES OF DATAFRAME OBJECTS
 .index                                  #A list of row-indices (usually numbers)
 .columns                                #A list of column names
 .dtypes                                 #A list of column datatypes
 .shape                                  #A tuple specifying (rows, columns)
 .values                                 #A matrix of the table without headers and row indices
 
-#METHODS ON DATAFRAME OBJECTS - WHOLE DATASET
+## METHODS ON DATAFRAME OBJECTS - WHOLE DATASET
 df.copy()                               #copy the dataframe (instead of just referencing it)
 
 df.head(n)                              #only first n rows
@@ -140,7 +140,7 @@ df.dot(df2)                             #dot product of two dataframes
 
 df.update(df2)                          #Update values in df with no-Nan values from df2
 
-#COMBINE DATAFRAMES
+## COMBINE DATAFRAMES
 df.merge(df2)                           #merge dataframe with other dataframe
     on="field"                          #fieldname(s) to match (if they have same name)
     left_on="df1-field"
@@ -155,7 +155,7 @@ pd.concat(dflist)                       #adds all the dataframes in the list
     axis=1                              #add horizontally, not vertically
     ignore_index=True                   #construct new index, don't use existing one
 
-#METHODS ON DATAFRAME OBJECTS - COMPARISONS
+## METHODS ON DATAFRAME OBJECTS - COMPARISONS
 
 pd.isnull()                             #Built-in function to test for null on any value
 pd.notnull()                            #same
@@ -171,7 +171,7 @@ df["field1"].str.contains("str")        #returns true if field1 contains the str
 df["field1"].isin(["str1", "str2"])     #returns true if field1 equals a value in the list
 ~df["field1"].isin(["str1", "str2"])     #returns true if field1 doesn't equal a value in the list
 
-#METHODS ON DATAFRAME OBJECTS - ONLY ONE column
+## METHODS ON DATAFRAME OBJECTS - ONLY ONE column
 df["field1"].describe()                  #displays max, min, mean, etc
 
 df["field"].value_counts()              #frequency of each value, in tabular form
@@ -200,13 +200,13 @@ pd.get_dummies(df["field"])             #Based on unique values in a field, crea
     prefix="prefix"                     #Prefix to use before using unique values as column headers
     drop_first=True)
 
-#METHODS ON DATAFRAME OBJECTS - ONLY ONE row
+## METHODS ON DATAFRAME OBJECTS - ONLY ONE row
 df.append(series/dataframe)             #adds the row, returns new object
 
 df.drop(df[condition].index)            #delete rows from table based on condition
     inplace=True                        #Do it on the same object
 
-#NUMERICAL FUNCTIONS
+## NUMERICAL FUNCTIONS
 df.rolling(n, on="column")              #returns the rolling average of "column" as a DF
     min_periods=n                       #set number of periods to average over
 
@@ -215,7 +215,7 @@ df.column.pct_change()                  #calculates %-change between period t an
 df.column.agg(['func1', 'func2'])       #applies aggregate function like 'mean' etc. to column and spits out a dataframe
 
 
-#ASSIGN FIELD VALUES DYNAMICALLY
+## ASSIGN FIELD VALUES DYNAMICALLY
 df.loc[cond, "field"] = "value"         #sets "field" = "value" in all rows where "cond" is True
 
 df.apply(function)                      #applies some function to the dataframe
@@ -225,7 +225,7 @@ def function(x):                        #need to define the function
 
 df["field1"] = df.apply(function)       #save the result in a new column
 
-#METHODS ON DATAFRAME OBJECTS - AGGREGATE FUNCTIONS
+## METHODS ON DATAFRAME OBJECTS - AGGREGATE FUNCTIONS
 .max()                      #maxiumum
 .min()                      #minimum
 .mean()                     #mean
@@ -236,7 +236,7 @@ df["field1"] = df.apply(function)       #save the result in a new column
     axis=1                  #use all these functions not column-wise but row-wise
 
 
-#DEALING WITH TIME
+## DEALING WITH TIME
 pd.to_datetime(df.column)                #Turn a string into a datetime. without args, leaves format unchanged
     format="format"                     #specify the format (e.g. "%Y-%m-%d") see: http://strftime.org/
 
@@ -265,6 +265,6 @@ df.rolling(n)                           #aggregate with n neighbors. chain with 
 df.column.apply(lambda (t): t.strftime('format')) #to transform a datetime col as string
 
 
-#SQL-DATABASE HANDLING
+## SQL-DATABASE HANDLING
 pd.read_sql(query, conn)                #execute a SQL-query on a given connection
     index_col="column"                  #the column to be used as index
