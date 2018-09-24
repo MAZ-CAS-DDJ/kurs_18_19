@@ -1,5 +1,5 @@
 # PANDAS CHEAT SHEET
-by Simon Schmid. Work in progrss, without any guarantees
+by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mail [here](mailto:simon@netwings.ch).
 
 ## BASICS
 
@@ -20,7 +20,7 @@ by Simon Schmid. Work in progrss, without any guarantees
 
 ### Constructors
 
-**`pd.Series(list)`**                               *- construct a Series from a list*  
+**`pd.Series(list)`**                               *- construct a Series from a list* ([reference](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html))  
 - `list: ['value1', 'value2']`
 
 **`s = pd.Series(dict)`**                           *- construct a Series from a dict*
@@ -43,7 +43,7 @@ by Simon Schmid. Work in progrss, without any guarantees
 -    `header=None`                                  *- use if csv has no header-row*
 -    `names=["id", "cat"]`                          *- specify column names to be used*
 
-**`df = pd.read_excel("file.xlsx")`**               *- Create a DF from an XLS file"
+**`df = pd.read_excel("file.xlsx")`**               *- Create a DF from an XLS file*
 -    `sheetname="name"`                             *- the name of the sheet inside excel*
 -    `skiprows=n`                                   *- skip the first n rows*
 -    `names=list`                                   *- use these column names*
@@ -138,10 +138,10 @@ by Simon Schmid. Work in progrss, without any guarantees
 ### Modify the index
 
 **`df.set_index("field")`**                         *- change the index-column to "field1"*
--    `inplace=True`                                 *- actually make the changes*
+-    `inplace=True`                                 *- make the changes on the object, not a copy*
 
 **`df.rename_axis("Name")`**                        *- Rename the index column. Use 'None' to delete the index name*
--    `inplace=True`
+-    `inplace=True`                                 *- make the changes on the object, not a copy*
 
 ### Modify columns
 
@@ -152,14 +152,14 @@ by Simon Schmid. Work in progrss, without any guarantees
 **`df.assign(newfield = df["field1"] ... )`**       *- assign values to new column (original remains)*
 
 **`df.rename(columns=dict)`**                       *- rename columns, using {'old1': 'new1', 'old2': 'new2'} as dict*
--    `inplace=True`
+-    `inplace=True`                                 *- make the changes on the object, not a copy*
 
 ### Modify rows
 
 **`df.append(series/dataframe)`**                   *- adds the row, returns new object*
 
 **`df.drop(df[condition].index)`**                  *- delete rows from table based on condition*
--    `inplace=True`                                 *- Do it on the same object*
+-    `inplace=True`                                 *- make the changes on the object, not a copy*
 
 ### Modify data structure
 
@@ -209,18 +209,18 @@ by Simon Schmid. Work in progrss, without any guarantees
 
 **`df.dropna()`**                                   *- get rid of NaNs, optional: in a subset*
 -    `subset="field1"`                              *- only apply on subset*
--    `inplace=true`                                 *- modify the original, not create a copy*
+-    `inplace=true`                                 *- make the changes on the object, not a copy*
 -    `how="all"`                                    *- only drop rows where all fields are NaN*
 
 **`df.fillna(value)`**                              *- replace NaN's with other value*
--    `inplace=true`                                 *- modify the df itself, not in returned object*
+-    `inplace=true`                                 *- make the changes on the object, not a copy*
 
 ### Deal with duplicates
 
 **`df.drop_duplicates()`**                          *- gets rid of duplicate vlalues*
 -    `subset="field"`                               *- only consider certain fields (or list of fields)*
 -    `keep="first/last/False"`                      *- which of the values to keep*
--    `inplace=True/False`                           *- default = False*
+-    `inplace=True      `                           *- make the changes on the object, not a copy*
 
 **`df.duplicated()`**                               *- The duplicates (inverse of drop_dupclicated())*
 -    `subset="field"`                               *- only consider certain fields (or list of fields)*
