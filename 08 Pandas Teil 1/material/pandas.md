@@ -1,11 +1,13 @@
 ## BASICS
 
 ### Install
-**pip install pandas**
+**`pip install pandas`**
 
 ### Libraries to import
 **import pandas as pd**                           *-  basic package*
+
 **import numpy as np**                            *- need this for NaN*
+
 **import datetime**                               *- to deal with time*
 
 ### Help
@@ -15,29 +17,20 @@
 
 ### Constructors
 
-**pd.Series(list)**                               *- construct a Series from a list*  
-list = ['value1', 'value2']
+**`pd.Series(list)`**                               *- construct a Series from a list*  
+- list: ['value1', 'value2']
 
 **s = pd.Series(dict)**                           *- construct a Series from a dict*
-dict = ({"key1": value1, "key2": value2})
+- dict: ({"key1": value1, "key2": value2})
 
 **df = pd.DataFrame(listoftdicts)**               *- Create a DF from a list of dictionaries*  
-listofdicts = [{'field1': value1, 'field2': value2},{'field1': value3, 'field2': value4}]
-
-**df = pd.DataFrame**(                            *- Can also be typed directly*  
-    "field1": val1, val2, val3,  
-    "field2": val4, val5, val6  
-)
+- listofdicts: [{'field1': value1, 'field2': value2}, {'field1': value3, 'field2': value4}]
 
 **df = pd.DataFrame(dictoflists)**               *- Create a DF from a dictionary of lists*  
-dictsoflists = {'field1': [value1, value3], 'field2': [value2, value4}
-
-**df = pd.DataFrame**(                            *- Can also be typed directly*    
-    ['field1', value1, value2],  
-    ['field2', value1, value2]  
-)
+dictsoflists: {'field1': [value1, value3], 'field2': [value2, value4}
 
 ### Data in
+
 **df = pd.read_csv("file.csv")**                  *- Create a DF from a CSV file*
 -    nrows=59                                     *- to only get a number of rows*
 -    na_values=["string1", "string2", ...]        *- to specify values to ignore*
@@ -75,11 +68,11 @@ dictsoflists = {'field1': [value1, value3], 'field2': [value2, value4}
 
 ## SELECTING STUFF
 
-### Table
+### Select whole table
 
 **df**                                            *- represents whole table*
 
-### Columns
+### Select columns
 
 **df.field1**                                     *- fetch only one column*
 
@@ -90,7 +83,7 @@ dictsoflists = {'field1': [value1, value3], 'field2': [value2, value4}
 **df[condition]**                                 *- only fetch rows where condition is true*  
 condition = df['field' == value]                  *- an example*
 
-### Rows
+### Select rows
 **df.head(n)**                                    *- only first n rows*
 
 **df.tail(n)**                                    *- only last n rows*
@@ -99,7 +92,7 @@ condition = df['field' == value]                  *- an example*
 
 **df.iloc[integer]**                              *- treat index as if it was a range of integers*
 
-### Grouping
+### Group data fields
 
 **df.groupby("field1")**                          *- to initialize grouped output - need field & aggregate function*  
 use like: df.groupby("field1")["field2"].function()
@@ -180,7 +173,7 @@ use like: df.groupby("field1")["field2"].function()
 
 **df.T**                                          *- shorthand for dr.transpose()*
 
-### Sort data
+### Sort data globally
 
 **df.sort_index()**                               *- sort not by values but by index*
 
@@ -188,7 +181,7 @@ use like: df.groupby("field1")["field2"].function()
 -    ascending=False                              *- in descending order*
 -    na_position="first"/"last"                   *- position of NaN values*
 
-## Combine dataframes
+## COMBINE DATAFRAMES
 **df.merge(df2)**                                 *- merge dataframe with other dataframe*
 -    on="field"                                   *- fieldname(s) to match (if they have same name)*
 -    left_on="df1-field"                          *- fieldname to match on left side*
