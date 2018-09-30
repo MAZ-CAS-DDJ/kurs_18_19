@@ -22,4 +22,3 @@
 
 # Plotting
 - [Pandas Dokumentation Visualization](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
-- [Simons Cheat Sheet](plotting.md) - Meine Notizen, aufbereitet mit Links
