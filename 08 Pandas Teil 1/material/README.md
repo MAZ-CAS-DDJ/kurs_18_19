@@ -21,4 +21,6 @@
 - [Funktionen anwenden](https://pandas.pydata.org/pandas-docs/stable/basics.html#function-application) - apply() und ähnliches
 
 # Plotting
-- [Pandas Dokumentation Visualization](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
+- [Pandas Dokumentation: Visualization](https://pandas.pydata.org/pandas-docs/stable/visualization.html)
+- [Pandas Matplotlib Cheat Sheet](Python_Matplotlib_Cheat_Sheet.pdf)
+- [Simons Cheat Sheet kommt noch]
