@@ -77,7 +77,7 @@ Anmeldeschluss	Mi, 15.08.2018
 1. Übung 1: [Daten klassifizieren - SNF-Grants](09%20Pandas%20Teil%202/Daten%20klassifizieren.ipynb) *([Lösung](09%20Pandas%20Teil%202/Daten%20klassifizieren%20L.ipynb))* (ssc), 100'
 1. Ein DDJ-Beispiel: [Bussed out](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study) (ssc), 10'
 1. Übung 2: [Daten kombinieren - Immobilienboom](09%20Pandas%20Teil%202/Daten%20kombinieren.ipynb) *([Lösung](09%20Pandas%20Teil%202/Daten%20kombinieren%20L.ipynb))* (ssc), 100'
-1. Hife und Homework: [Charts formatieren]() *([Lösung])* (ssc), 60'
+1. Homework: [Charts formatieren](09%20Pandas%20Teil%202/Beautiful%20Charts.ipynb) (ssc), 60'
 
 
 ## Selenium, Rückblick und Ausblick auf die Projekte
