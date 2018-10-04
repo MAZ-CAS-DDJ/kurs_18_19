@@ -1,16 +1,21 @@
 # Russian Facebook Ads
 
-Examining the Facebook ads from the Russian "Internet Research Agency" (IRA)
+Untersuchung der von der russischen Firma "Internet Research Agency" (IRA) gekauften Facebook-Werbung
 
-On May 10, the Democrat's house of Intelligence published 3500 Facebook ads the IRA published on Facebook from 2015 to 2017. [Here's the data](https://democrats-intelligence.house.gov/facebook-ads/)
+Am 10. Mai 2018 publiziete das US-Repräsentantenhaus 3500 Facebook-Werbungen, die die Firma IRA auf Facebook unter falschen Namen zwischen 2015 und 2017 gekauft hatten. [Die Werbung is hier abgelegt](https://democrats-intelligence.house.gov/facebook-ads/)
 
-In the repo you'll find three notebooks:
-1. Reading and pulling out the relevant information
-2. Cleaning the data
-3. Analysing and understanding the data
+- These: Die Werbung verbreitet Falschnachrichten, die Trump geholfen, und Hillary geschadet hat
+- Thesencheck (Abschätzen von Aufwand/Ertrag): Aus den Werbungen lassen sich Zielpublikum nach Interessen und geographischer Lage abschätzen
+- Knackpunkt: Die Daten sind vorhanden
+- Briefing-Person: Prof. Perovic, Experte russische Propaganda.
+- Code und Dokumentation
+- Publikation
 
-To run the notebooks download the files into the fs folder. [Here's how flatten folders](https://lifehacker.com/instantly-flatten-a-directory-in-os-x-with-a-terminal-c-1685729312) from the command line.
+Die Code-Dokumentation besteht aus folgenden Elemente:
+1. Text aus den Dokumenten ziehen und maschinenlesbar aufbereiten
+2. Datenreinigung
+3. Analyse und Visualisierungen
 
-If anybody has time and the means to classify the targetted ads, please do get in touch. Or if you hae
+Alle PDF-Dokumente entzippen und einzeln auslesen. Um eine Liste zu enthierarchisieren, hilft diese Anleitung. [Here's how flatten folders](https://lifehacker.com/instantly-flatten-a-directory-in-os-x-with-a-terminal-c-1685729312)
 
-Please get in touch, if you have any questions: [barnaby.skinner@tamedia.ch](mailto:barnaby.skinner@tamedia.ch).
+Fragen und Kontakt: [barnaby.skinner@tamedia.ch](mailto:barnaby.skinner@tamedia.ch).
