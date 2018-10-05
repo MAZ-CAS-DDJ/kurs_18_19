@@ -12,7 +12,7 @@ Am 10. Mai 2018 publiziete das US-Repräsentantenhaus 3500 Facebook-Werbungen, d
 - Kooperationspotential **
 - Know-How-Aufbau ***
 
-**
+**Rechercheplan**
 - These: Die Werbung verbreitet Falschnachrichten, die Trump geholfen, und Hillary geschadet hat
 - Thesencheck (Abschätzen von Aufwand/Ertrag): Aus den Werbungen lassen sich Zielpublikum nach Interessen und geographischer Lage abschätzen
 - Knackpunkt: Die Daten sind vorhanden
