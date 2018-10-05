@@ -4,6 +4,15 @@ Untersuchung der von der russischen Firma "Internet Research Agency" (IRA) gekau
 
 Am 10. Mai 2018 publiziete das US-Repräsentantenhaus 3500 Facebook-Werbungen, die die Firma IRA auf Facebook unter falschen Namen zwischen 2015 und 2017 gekauft hatten. [Die Werbung is hier abgelegt](https://democrats-intelligence.house.gov/facebook-ads/)
 
+[**Spider-Check**](https://docs.google.com/presentation/d/1SyiQeJJfaXy_zE5cdiMMaop417JF-MmaA5b0cJH2QEs/edit#slide=id.g3f37b2c0a2_0_19)
+- Reichweite ***
+- Journalistischer Impact *****
+- Innovation **
+- Tiefe des Inhalts ***
+- Kooperationspotential **
+- Know-How-Aufbau ***
+
+**
 - These: Die Werbung verbreitet Falschnachrichten, die Trump geholfen, und Hillary geschadet hat
 - Thesencheck (Abschätzen von Aufwand/Ertrag): Aus den Werbungen lassen sich Zielpublikum nach Interessen und geographischer Lage abschätzen
 - Knackpunkt: Die Daten sind vorhanden
