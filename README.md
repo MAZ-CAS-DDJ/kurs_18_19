@@ -89,7 +89,7 @@ Anmeldeschluss	Mi, 15.08.2018
 
 ## Pandas Vertiefung, Teil 1
 **8. November**
-1. Ein DDJ-Beispiel: [Beispiel](Link) (ssc), 15'
+1. Ein DDJ-Beispiel: [How well do you know your country](https://www.theguardian.com/world/ng-interactive/2015/dec/02/how-well-do-you-really-know-your-country-take-our-quiz) (ssc), 15'
 1. Unterricht: [Date+Time Basics](11%20Pandas%20Teil%203/Date+Time%20Basics.ipynb) *([Lösung](11%20Pandas%20Teil%203/Date+Time%20Basics%20L.ipynb))* (ssc), 60'
 1. Unterricht: [Time Series - SMI-Index](11%20Pandas%20Teil%203/Time%20Series.ipynb) *([Lösung](11%20Pandas%20Teil%203/Time%20Series%20L.ipynb))* (ssc), 90'
 1. Ein DDJ-Beispiel: [Brasilien-Wahlen](https://www.estadao.com.br/infograficos/politica,bolsonaro-vence-em-97-das-cidades-mais-ricas-e-haddad-em-98-das-pobres,93585) (ssc), 15'
@@ -99,7 +99,7 @@ Anmeldeschluss	Mi, 15.08.2018
 
 ## Pandas Vertiefung, Teil 2
 **9. November, Vormittag**
-1. Ein DDJ-Beispiel: [Beispiel](Link) (ssc), 15'
+1. Ein DDJ-Beispiel: [Population in 3D](https://pudding.cool/2018/10/city_3d/) (ssc), 15'
 1. Übung: [Regex in Python - Songtexts](12%20Pandas%20Teil%204/Regex%20in%20Python.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Python%20L.ipynb))* (ssc), 90'
 1. Unterricht: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipnyb))* (ssc), 60'
 1. Homework 3: [Regex - Senators](12%20Pandas%20Teil%204/Homework%203.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Homework%203%20L.ipynb))*
