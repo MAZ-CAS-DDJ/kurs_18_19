@@ -95,12 +95,11 @@ Anmeldeschluss	Mi, 15.08.2018
 1. Ein DDJ-Beispiel: [Brasilien-Wahlen](https://www.estadao.com.br/infograficos/politica,bolsonaro-vence-em-97-das-cidades-mais-ricas-e-haddad-em-98-das-pobres,93585) (ssc), 15'
 1. Übung: [Pandas und Funktionen](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen.ipynb) *([Lösung](11%20Pandas%20Teil%203/Pandas%20und%20Funktionen%20L.ipynb))* (ssc), 60'
 1. Übung: [Viele Dateien - Krypto-Coins](11%20Pandas%20Teil%203/Viele%20Dateien.ipynb) *([Lösung](11%20Pandas%20Teil%203/Viele%20Dateien%20L.ipynb))* (ssc), 60'
-1. Unterricht: [Beautiful Charts](09%20Pandas%20Teil%202/Beautiful%20Charts.ipynb) (ssc), 30'
+1. Unterricht: [Beautiful Charts](09%20Pandas%20Teil%202/Beautiful%20Charts.ipynb) *([Lösung](09%20Pandas%20Teil%202/Beautiful%20Charts%20L.ipynb))* (ssc), 30'
 
 ## Pandas Vertiefung, Teil 2
 **9. November, Vormittag**
 1. Ein DDJ-Beispiel: [Beispiel](Link) (ssc), 15'
 1. Übung: [Regex in Python - Songtexts](12%20Pandas%20Teil%204/Regex%20in%20Python.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Python%20L.ipynb))* (ssc), 90'
-1. Unterricht: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *(12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipynb))* (ssc), 60'
-1. Homework 3: [Regex - Senators](12%20Pandas%20Teil%204/Homework%203.ipynb) *(([Lösung]12%20Pandas%20Teil%204/Homework%203%20L.ipynb))*
-**Nachmittag**
+1. Unterricht: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipnyb))* (ssc), 60'
+1. Homework 3: [Regex - Senators](12%20Pandas%20Teil%204/Homework%203.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Homework%203%20L.ipynb))*
