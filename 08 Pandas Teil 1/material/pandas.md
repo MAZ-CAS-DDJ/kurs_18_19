@@ -291,7 +291,7 @@ Many of these functions can be used on whole dataframes as well.
 -    `dictionary`                                   *- uses key-value pairs in the dictionary to replace multiple values*
 -    `regex=True`                                   *- use regex to find instances of str1*
 
-**`df["field1"].extract(regex)`**                   *- extracts a regex from the field* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.extract.html))
+**`df["field1"].str.extract(regex)`**                   *- extracts a regex from the field* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.extract.html))
 -    `expand=True`                                  *- force return of a dataframe instead of a series*
 -    `.dropna()`                                    *- to drop the NA values*
 
@@ -302,16 +302,14 @@ Many of these functions can be used on whole dataframes as well.
 **`df.apply(function)`**                            *- applies some function to the dataframe* ([reference](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html))
 -    `axis = 1`                                     *- tells the function to treat the df in ROWS. default: COLUMNS*
 
-**`def function(x):`**                              *- need to define the function*
-
-**`df["field1"] = df.apply(function)`**             *- save the result in a new column*
-
 ## DEAL WITH TIME
 
 ### Data Conversion
 
 **`pd.to_datetime(df.column)`**                     *- Turn a string into a datetime. without args, leaves format unchanged* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html))
 -    `format="format"`                              *- specify the format (e.g. "%Y-%m-%d")* ([formats](http://strftime.org/))
+
+**`.strftime('format')`**                          *- Turn a datetime into a formatted string*
 
 **`df['field1'].apply(lambda (t): t.strftime('format'))`** *- to transform a datetime col into a string* ([reference](https://docs.python.org/3/library/time.html#time.strftime))
 
@@ -345,6 +343,10 @@ Many of these functions can be used on whole dataframes as well.
 **`df.resample('rule')`**                           *- aggregate data so some specific time interval* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.resample.html)), ([rules](https://stackoverflow.com/questions/17001389/pandas-resample-documentation/17001474*-%2017001474))
 
 **`df.rolling(n)`**                                 *- aggregate with n neighbors. chain with .mean(), .sum() or other* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html))
+
+### Other date stuff
+
+**`datetime.today()`**                              *- Today's date, as a datetime object*
 
 ## DISPLAY OPTIONS FOR JUPYTER NOTEBOOKS
 **`pd.set_option("optionName", value)`**            *- Change the behavior of displayed content in notebooks* ([reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html))
