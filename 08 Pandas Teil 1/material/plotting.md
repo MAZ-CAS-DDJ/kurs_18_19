@@ -8,7 +8,9 @@ by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mai
 
 ### Needed Libraries
 **`import matplotlib.pyplot as plt`**         *- to use everything matplotlib's functions*
+
 **`import matplotlib.ticker as ticker`**      *- to use the formatters*
+
 **`import matplotlib.dates as dates`**        *- to use date formatters*
 
 ### To Export Charts
@@ -102,7 +104,7 @@ tick options:
 ### Figure
 **`fig.set_size_inches(x, y)`**               *- Set the sizes*
 
-### Title
+### Title
 **`ax.set_title("Title")`**                   *- Set the title* [reference](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.set_title.html)
 - `loc=['center','left','right']`       *- Horizontal Location*
 - `fontsize=number`                     *- Font size*
@@ -116,7 +118,7 @@ tick options:
 - `'top'`
 - `'bottom'`
 
-## Grid
+### Grid
 **`ax.grid(True)`**                           *- Turn on all grid*
 
 **`ax.grid()`**                               *- Turn on grid* [reference](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.grid.html)
