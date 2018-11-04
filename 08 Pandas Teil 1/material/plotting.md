@@ -1,133 +1,191 @@
-# PLOTTING CHEAT SHEET
-by Simon Schmid. Work in progress, without any guarantees
+#SETUP
+by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mail [here](mailto:simon@netwings.ch).
 
-# SETUP
-**`%matplotlib inline`**                                *- use command to display plots in notebooks*
+## For Jupyter Noteook
+**`%matplotlib inline`**                      *- use command to display plots in notebooks*
 
-**`import matplotlib.pyplot as plt`**                   *- to use everything with plt.*
+## Needed Libraries
+**`import matplotlib.pyplot as plt`**         *- to use everything matplotlib's functions*
+**`import matplotlib.ticker as ticker`**      *- to use the formatters*
+**`import matplotlib.dates as dates`**        *- to use date formatters*
 
-**`import matplotlib.ticker as ticker`**
+## Exporting Charts
+**`matplotlib.rcParams['pdf.fonttype'] = 42`** *- to export in type2 fonts not type3*
 
-**`import matplotlib.dates as dates`**
+# PLOTTING FROM PANDAS
 
-**`matplotlib.rcParams['pdf.fonttype'] = 42`**          *- to export in type2 fonts not type3*
+## Main function
+**`df.plot()`**                               *- Various kinds of plots can be done* [reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html)
+- `use_index=True`                      *- Index column is used as x-Axis by default*
+- `x="field1", y="field2"`              *- specify x and y explicitly*
+- `ax='plot'`                           *- Specity existing Plot where it should be drawn*
+subplots:
+- `subplots=False/True`                 *- Separate subplot for each figure*
+- `sharex=False/True`                   *- For subplots: share x-Axis*
+- `sharey=False/True`                   *- For subplots: share x-Axis*
+- `layout=(m,n)`                        *- Layout of the subplots*
+general layout options:
+- `title="title"`                       *- the title*
+- `figsize=(valx, valy)`                *- define size of the graph*
+- `legend="True/False"`                 *- display a legend*
+- `grid=False/True`                     *- Whether to display grid lines*
+axis options:
+- `xlim=(val1, val2)`                   *- set min and max of x-axis*
+- `ylim=(val1, val2)`                   *- set min and max of y-axis*
+- `logx=False/True`                     *- Use log scaling on x-axis*
+- `logy=False/True`                     *- Use log scaling on y-axis*
+tick options:
+- `xticks=[list]`                       *- Specify the x-ticks explicitly*
+- `yticks=[list]`                       *- Specify the y-ticks explicitly*
+- `fontsize=number`                     *- Font size of the ticks*
 
-# PANDAS BUILT-IN FUNCTION
-**`df.plot()`**                                         *- default: a line chart* ([reference](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwiwmsquzOrdAhVFiywKHXp1C6sQFjAAegQICRAB&url=https%3A%2F%2Fpandas.pydata.org%2Fpandas-docs%2Fstable%2Fgenerated%2Fpandas.DataFrame.plot.html&usg=AOvVaw1IwZzuSZC6J1kHBeNKYUhP))
--    `linewidth=n`                                      *- width of line in linechart*
+## Special Plots
 
-`kind="bar"`                                            *- vertical bar chart*
--    `stacked=True/False`                               *- for stacked bar charts*
--    `x="field1", y="field2"`                           *- specify series to use for x and y explicitly*
+**`df.plot(kind='line')`**                    *- Line is default option*
+- `linewidth=n`                         *- width of line*
+- `alpha=number`                        *- Alpha-value of the colors*
+- `color='color'`                       *- Color (can be a list)*
+- `linestyle='style'`                   *- line Style*
+- `marker='style'`                      *- marker style* [see list](https://stackoverflow.com/questions/8409095/matplotlib-set-markers-for-individual-points-on-a-line)
 
-`kind="barh"`                                           *- horizontal bar chart*
--    `stacked=True/False`                               *- for stacked bar charts*
--    `x="field1", y="field2"`                           *- specify series to use for x and y explicitly*
+**`df.plot(kind='bar'/'barh')`**              *- Vertical/horizontal bar chart*
+- `stacked=True/False`                  *- for stacked bar charts*
+- `color='color'`                       *- Color (can be a list)*
 
-`kind="scatter"`                                        *- scatterplot*
--    `s=number`                                         *- size of the dots in a scatterplot (can be a list)*
--    `x="field1", y="field2"`                           *- specify series to use for x and y explicitly*
--    `alpha=number`                                     *- alphavalue (transparency)*
--    `s=number`                                         *- size of scatter-dots, can be a list*
--    `ylim=(val1, val2)`                                *- set min and max of y-axis*
+**`df.plot(kind="scatter")`**                 *- scatterplot*
+- `linewidth=n`                         *- width of marker line*
+- `s=number`                            *- size of the dots in a scatterplot (can be a list)*
+- `alpha=number`                        *- Alpha-value of the colors*
+- `color='color'`                       *- Color (can be a list)*
+- `marker='style'`                      *- marker style*
 
-## Format Options                                        
--    `figsize=(valx, valy)`                             *- define size of the graph*
--    `title="title"`                                    *- the title*
--    `legend="True/False"`                              *- display a legend*
--    `label="labellist"`
--    `color="color/colorlist"`                          *- set color of line/bar, can be a list*
+# PLOTTING FROM MATPLOTLIB
 
-## WHERE TO PLOT                                        
--    `ax=otherplot`                                     *- Plot on some existing chart ("otherplot")*
+## Creating figures and subplot-objects
+**`fig, ax = plt.subplots()`**                *- create separate handles for the figure and subplot* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html)
+- `figsize=(x,y)`                       *- Specify width and heigth in inches*
 
-## Histograms
-**`df["field1"].hist()`**                           *- returns a graphical histogram*
--    `bins=n`                                       *- change number of bins to n*
--    `bins=[n1, n2, n3, ...]`                       *- set specific ranges*
+**`fig, (ax1, ax2, ...) = plt.subplots(m, n)`** *- create handles for figure and several subplots*
+- `sharey=True`                         *- Let them share the same y-axis*
+- `sharex=True`                         *- Let them share the same x-axis*
 
-# MATPLOTLIB PLOTTING
-fig, ax = plt.subplots()                #create separate handles for the figure and axis
+**`fig = plt.figure()`**                      *- create only the figure seperately* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html)
 
-df.plot(ax=ax)                          #add a plot to the figure and axis specified
-ax.plot()                               #other way to add a plot to the figure and axis
-ax.scatter()
-ax.pie()
-ax.bar()
-ax.barh()
-ax.hlines()
-...                                     #overwiew: https://matplotlib.org/2.0.2/api/axes_api.html
+**`ax = fig.add_subplot(vpos, hpos, n)`**     *- add a subplot to the figure, at the nth position in a (v*h) grid*
 
-# MULTIPLE SUBPLOTS
-fig = plt.figure()                      #create the figure seperately
-ax = fig.add_subplot(vpos, hpos, n)     #add an axis to the figure, at the nth position in a (v*h) grid
+## Drawing charts on subplot-objects
+**`ax.plot()`**                               *- draw a chart on an existing subplot-object.* [Overview of types](https://matplotlib.org/2.0.2/api/axes_api.html)
 
+**`ax.bar()`**                                *- draw a bar chart on an existing subplot-object.* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.bar.html)
 
-#FORMATTING THE PLOT - MAIN SETUP
-fig.set_size_inches(x, y)               #Set the sizes
+**`ax.barh()`**                               *- draw a horizontal bar chart on an existing subplot-object.* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.barh.html)]
 
-.set_title("Title")                     #Set the title
-    fontsize=number
-.spines['right'].set_visible(True/False) #display borders around canvas
-        'left'
-        'top'
-        'bottom'
-.set_xlim([min, max])                   #set range on the x-Axis
-.set_ylim([min, max])                   #Set range on the y-Axis
+**`ax.scatter()`**                            *- draw a scatterplot on an existing subplot-object.* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)
 
-#FORMATTING THE AXES - LABELS
-.axis('off')                            #remove the axes completely
-.set_xlabel("Label")                    #Set label of horizontal axis
-    fontsize=number
-.set_ylabel("Label")                    #Set label of vertical axis
-    fontsize=number
-.xaxis.set_ticks_position('top')        #position of ticks
-                          'bottom'
-                          'none'
+**`ax.pie()`**                                *- draw a pie chart on an existing subplot-object.*[reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.pie.html)
 
+**`ax.hlines()`**                             *- draw a horizontal line on an existing subplot-object.* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hlines.html)
 
-#FORMATTING THE AXES - TICKS
-.xaxis.set_ticks(listofticks)
+**`ax.fill_between()`**                       *- Fill the area between y_mins and y_maxes* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.fill_between.html)
+- `x_values=list`
+- `y_mins=list`
+- `y_maxes=list`
 
-.xaxis.set_major_locator()              #efine ticks frequency in a time plot
-    dates.YearLocator()
-    dates.MonthLocator()
+#FORMATTING CHARTS
 
-.xaxis.set_major_formatter()            #define the date format of the ticks in a time plot
-    dates.DateFormatter('format')
-    ticker.FormatStrFormatter('%0.1f')
+## Figure
+**`fig.set_size_inches(x, y)`**               *- Set the sizes*
 
-fig.autofmt_xdate()                     #auto-rotate labels
+## Title
+**`ax.set_title("Title")`**                   *- Set the title* [reference](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.set_title.html)
+- `loc=['center','left','right']`       *- Horizontal Location*
+- `fontsize=number`                     *- Font size*
+- `fontweight='fontweight'`             *- Font weight*
+- `fontname='fontname'`                 *- Font name*
+- `fontdict=dict`                       *- All font properties in one dictionary*
 
-.axes.set_xticklabels()                 #define and format the tick labels (non-time graph)
-    fontsize=n
-    rotation=n
+## Border
+**`ax.spines['right'].set_visible(True/False)`** *- display borders around canvas* [reference](https://matplotlib.org/api/spines_api.html)
+- `'left'`
+- `'top'`
+- `'bottom'`
 
-#FORMATTING THE LEGEND
-ax.legend(True)                         #Complete list of options:
-    fontsize=number                     #https://matplotlib.org/2.0.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend
-    loc=n                               #0=best, 1=up,right, 2=up,left, ...
+## Grid
+**`ax.grid(True)`**                           *- Turn on all grid*
 
-#FORMATTING THE GRID
-.grid(True)                             #Turn on all grid
-.grid(axis='y')                         #Turn on grid on y-axis only
+**`ax.grid()`**                               *- Turn on grid* [reference](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.grid.html)
+- `axis='x'/'y'`                        *- Which axis*
+- `which : {'major', 'minor', 'both'}`  *- Which type of gridline to format*
+- `linestyle=linestyle`                 *- See link above*
+- `linewidth=number`                    *- Grid line width*
+- `color=color`                         *- Grid line color*
 
-#FORMATTING THE BACKGROUND
-ax.set_facecolor("color")               #
+**`ax.minorticks_on()`**                      *- Required to draw minor gridlines*
 
-#SPECIAL FEATURES
-ax.fill_between(x_values, y_mins, y_maxes) #Fill the area between y_mins and y_maxes
+## Background
+**`ax.set_facecolor("color")`**               *- Set the background color*
 
-#EXPORT
-import matplotlib
-matplotlib.rcParams['pdf.fonttype'] = 42 #important for the fonts
+### Axes
+**`ax.set_xlim([min, max])`**                 *- set range on the x-Axis*
 
-plt.tight_layout()                       #make sure the layout has no overlap in export
+**`ax.set_ylim([min, max])`**                 *- Set range on the y-Axis*
 
-plt.savefig("file.pdf")                  #export to pdf
-    transparent=True
+**`ax.axis('off')`**                          *- remove the axes completely*
 
-plt.savefig("file.svg")                  #export to pdf
-    transparent=True/False               #Transparency
-    bbox_inches=n/'tight'                #define the box
-    pad_inches=n                         #padding around the figure
+**`ax.set_xlabel("Label")`**                  *- Set label of horizontal axis*
+- `fontdict=dict`                       *- Dictionary, or individual properties*
+- `rotation=number`                     *- Rotation of the labels*
+- `labelpad=number`                     *- Padding of label from the axis*
+
+**`ax.set_ylabel("Label")`**                  *- Same options as for x-Axis*
+
+**`ax.xaxis.set_label_position('bottom')`**   *- Positioning of the x-axis-label*
+- `'top'`
+
+**`ax.yaxis.set_label_position('left')`**     *- Positioning of the y-axis-label*
+- `'right'`
+
+## Ticks
+**`ax.xaxis.set_ticks(listofticks)`**         *- Specify the x-ticks manually*
+
+**`ax.yaxis.set_ticks(listofticks)`**         *- Specify the y-ticks manually*
+
+**`ax.xaxis.set_ticks_position('top')`**      *- position of ticks on the axis*
+- `'bottom'`
+- `'none'`
+
+**`ax.yaxis.set_ticks_position('left')`**     *- position of ticks on the axis*
+- `'right'`
+- `'none'`
+
+**`ax.axes.set_xticklabels()`**               *- define and format the tick labels (non-time graph)*
+- `fontsize=n`
+- `rotation=n`
+
+**`ax.xaxis.set_major_locator()`**            *- Arrange number of x-Ticks (identical: y-Ticks)* [examples](https://matplotlib.org/examples/ticks_and_spines/tick-locators.html)
+- `dates.YearLocator()`                 *- Example: Years in a time chart*
+- `dates.MonthLocator()`                *- Example: Months in a time chart*
+
+**`ax.xaxis.set_minor_locator()`**            *- Identical for minor ticks*
+
+**`ax.xaxis.set_major_formatter()`**          *- Format the string in the ticks.* [examples](https://matplotlib.org/gallery/ticks_and_spines/tick-formatters.html)
+- `ticker.StrMethodFormatter('${x:,}')` *- An example for $60,000-style numbers*
+- `ticker.PercentFormatter(xmax=5)`     *- Another example: format as percent, max 5 entries*
+- `ticker.FormatStrFormatter('%0.1f')`  *- Example: Old-style floating point format*
+- `dates.DateFormatter('format')`       *- Example: Date formatting*
+
+## Legend
+**`ax.legend(True)`**                         *- Switch legend on* [list of options](https://matplotlib.org/2.0.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend)
+- `fontdict=dict`                       *- Or specify each font property*
+- `loc=n`                               *- 0=best, 1=up,right, 2=up,left, ...*
+
+#EXPORTING CHARTS
+**`plt.tight_layout()`**                       *- make sure the layout has no overlap in export*
+
+**`plt.savefig("file.pdf")`**                  *- export to pdf* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html)
+- `transparent=True`
+
+**`plt.savefig("file.svg")`**                  *- export to pdf*
+- `transparent=True/False`               *- Transparency*
+- `bbox_inches=n/'tight'`                *- define the box*
+- `pad_inches=n`                         *- padding around the figure*
