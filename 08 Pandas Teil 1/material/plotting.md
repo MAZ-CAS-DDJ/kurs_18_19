@@ -1,45 +1,51 @@
-#SETUP
+# PLOTTING CHEAT SHEET
 by Simon Schmid. Work in progrss, without any guarantees. Spotted a mistake? Mail [here](mailto:simon@netwings.ch).
 
-## For Jupyter Noteook
+## SETUP
+
+### Jupyter Notebook
 **`%matplotlib inline`**                      *- use command to display plots in notebooks*
 
-## Needed Libraries
+### Needed Libraries
 **`import matplotlib.pyplot as plt`**         *- to use everything matplotlib's functions*
 **`import matplotlib.ticker as ticker`**      *- to use the formatters*
 **`import matplotlib.dates as dates`**        *- to use date formatters*
 
-## Exporting Charts
+### To Export Charts
 **`matplotlib.rcParams['pdf.fonttype'] = 42`** *- to export in type2 fonts not type3*
 
-# PLOTTING FROM PANDAS
+## PLOTTING FROM PANDAS
 
-## Main function
+### Main function
 **`df.plot()`**                               *- Various kinds of plots can be done* [reference](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html)
 - `use_index=True`                      *- Index column is used as x-Axis by default*
 - `x="field1", y="field2"`              *- specify x and y explicitly*
 - `ax='plot'`                           *- Specity existing Plot where it should be drawn*
+
 subplots:
 - `subplots=False/True`                 *- Separate subplot for each figure*
 - `sharex=False/True`                   *- For subplots: share x-Axis*
 - `sharey=False/True`                   *- For subplots: share x-Axis*
 - `layout=(m,n)`                        *- Layout of the subplots*
+
 general layout options:
 - `title="title"`                       *- the title*
 - `figsize=(valx, valy)`                *- define size of the graph*
 - `legend="True/False"`                 *- display a legend*
 - `grid=False/True`                     *- Whether to display grid lines*
+
 axis options:
 - `xlim=(val1, val2)`                   *- set min and max of x-axis*
 - `ylim=(val1, val2)`                   *- set min and max of y-axis*
 - `logx=False/True`                     *- Use log scaling on x-axis*
 - `logy=False/True`                     *- Use log scaling on y-axis*
+
 tick options:
 - `xticks=[list]`                       *- Specify the x-ticks explicitly*
 - `yticks=[list]`                       *- Specify the y-ticks explicitly*
 - `fontsize=number`                     *- Font size of the ticks*
 
-## Special Plots
+### Special Plots
 
 **`df.plot(kind='line')`**                    *- Line is default option*
 - `linewidth=n`                         *- width of line*
@@ -59,9 +65,9 @@ tick options:
 - `color='color'`                       *- Color (can be a list)*
 - `marker='style'`                      *- marker style*
 
-# PLOTTING FROM MATPLOTLIB
+## PLOTTING FROM MATPLOTLIB
 
-## Creating figures and subplot-objects
+### Creating figures and subplot-objects
 **`fig, ax = plt.subplots()`**                *- create separate handles for the figure and subplot* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html)
 - `figsize=(x,y)`                       *- Specify width and heigth in inches*
 
@@ -73,7 +79,7 @@ tick options:
 
 **`ax = fig.add_subplot(vpos, hpos, n)`**     *- add a subplot to the figure, at the nth position in a (v*h) grid*
 
-## Drawing charts on subplot-objects
+### Drawing charts on subplot-objects
 **`ax.plot()`**                               *- draw a chart on an existing subplot-object.* [Overview of types](https://matplotlib.org/2.0.2/api/axes_api.html)
 
 **`ax.bar()`**                                *- draw a bar chart on an existing subplot-object.* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.bar.html)
@@ -91,12 +97,12 @@ tick options:
 - `y_mins=list`
 - `y_maxes=list`
 
-#FORMATTING CHARTS
+## FORMATTING CHARTS
 
-## Figure
+### Figure
 **`fig.set_size_inches(x, y)`**               *- Set the sizes*
 
-## Title
+### Title
 **`ax.set_title("Title")`**                   *- Set the title* [reference](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.set_title.html)
 - `loc=['center','left','right']`       *- Horizontal Location*
 - `fontsize=number`                     *- Font size*
@@ -104,7 +110,7 @@ tick options:
 - `fontname='fontname'`                 *- Font name*
 - `fontdict=dict`                       *- All font properties in one dictionary*
 
-## Border
+### Border
 **`ax.spines['right'].set_visible(True/False)`** *- display borders around canvas* [reference](https://matplotlib.org/api/spines_api.html)
 - `'left'`
 - `'top'`
@@ -122,7 +128,7 @@ tick options:
 
 **`ax.minorticks_on()`**                      *- Required to draw minor gridlines*
 
-## Background
+### Background
 **`ax.set_facecolor("color")`**               *- Set the background color*
 
 ### Axes
@@ -145,7 +151,7 @@ tick options:
 **`ax.yaxis.set_label_position('left')`**     *- Positioning of the y-axis-label*
 - `'right'`
 
-## Ticks
+### Ticks
 **`ax.xaxis.set_ticks(listofticks)`**         *- Specify the x-ticks manually*
 
 **`ax.yaxis.set_ticks(listofticks)`**         *- Specify the y-ticks manually*
@@ -174,12 +180,12 @@ tick options:
 - `ticker.FormatStrFormatter('%0.1f')`  *- Example: Old-style floating point format*
 - `dates.DateFormatter('format')`       *- Example: Date formatting*
 
-## Legend
+### Legend
 **`ax.legend(True)`**                         *- Switch legend on* [list of options](https://matplotlib.org/2.0.2/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend)
 - `fontdict=dict`                       *- Or specify each font property*
 - `loc=n`                               *- 0=best, 1=up,right, 2=up,left, ...*
 
-#EXPORTING CHARTS
+## EXPORTING CHARTS
 **`plt.tight_layout()`**                       *- make sure the layout has no overlap in export*
 
 **`plt.savefig("file.pdf")`**                  *- export to pdf* [reference](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html)
