@@ -40,8 +40,13 @@
 6. Grundbefehle
    - Verbindung mit dem Server. In der Command line folgende Zeile eingeben:
    - ```ssh -i ~/.ssh/do-droplet root@DEINEIP```
-   - Etwas auf dein Server spielen: ```scp -i ~/.ssh/do-droplet deinfile root@DEINEIP:~/```
-   - File vom Server nehmen, in diesem Fall all csvs: ```scp -i ~/.ssh/do-droplet root@DEINEIP:~/*.csv .```
+   - Etwas auf Deinen Server spielen: ```scp -i ~/.ssh/id_rsa deinfile root@DEINEIP:~/```
+   - File vom Server nehmen, in diesem Fall all csvs: ```scp -i ~/.ssh/id_rsa root@DEINEIP:~/*.csv .```
    - Den Script ausführen starten: ```python3 deinscript.py```
    - Crontab editor definieren: ```export EDITOR=nano```
    - Crontab editor starten: ```crontab -e```
+
+7. Server schliessen und dennoch laufen lassen
+   - ```tmux```
+   - Code eingeben
+   - ```tmuc attach```um sich wieder zu verbinden. Sonst bricht man die andere Verbindung ab. 
