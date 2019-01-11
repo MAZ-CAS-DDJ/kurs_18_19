@@ -103,3 +103,15 @@ Anmeldeschluss	Mi, 15.08.2018
 1. Übung: [Regex in Python - Songtexts](12%20Pandas%20Teil%204/Regex%20in%20Python.ipynb) *([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Python%20L.ipynb))* (ssc), 90'
 1. Unterricht: [Regex in Pandas - BFS](12%20Pandas%20Teil%204/Regex%20in%20Pandas.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Regex%20in%20Pandas%20L.ipnyb))* (ssc), 60'
 1. Homework 3: [Regex - Senators](12%20Pandas%20Teil%204/Homework%203.ipynb) *(([Lösung](12%20Pandas%20Teil%204/Homework%203%20L.ipynb))*
+
+## Geopandas, Stringmatching
+**14. Januar, Vormittag**
+1. Übung: [Aufwärmügung](19%20Geopandas/Aufwärmübung.ipynb) *([Lösung](19%20Geopandas/Aufwärmübung%20L.ipynb))* (ssc), 30'
+1. Unterricht: [Geopandas Intro](19%20Geopandas/Geopandas%20Intro.ipynb) *([Lösung](19%20Geopandas/Geopandas%20Intro%20L.ipynb))* (ssc), 30'
+1. Übung: [Geodatenhandling 1](19%20Geopandas/Geodatenhandling%201.ipynb) (ssc), 30'
+1. Übung: [Geodatenhandling 2](19%20Geopandas/Geodatenhandling%202.ipynb) (ssc), 30'
+1. Homework 1: [Geodatenhandling](19%20Geopandas/Homework%201.ipynb) *([Lösung](19%20Geopandas/Homework%201%20L.ipynb))*
+**14. Januar, Nachmittag**
+1. Unterricht: [Jellyfish](19%20Geopandas/Jellyfish.ipynb) (ssc), 30'
+1. Unterricht: [Fuzzywuzzy](19%20Geopandas/Fuzzywuzzy.ipynb) (ssc), 30'
+1. Übung: [Openrefine](19%20Geopandas/Openrefine.ipynb) (ssc), 60'
